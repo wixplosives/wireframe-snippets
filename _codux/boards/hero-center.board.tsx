@@ -10,9 +10,7 @@ export default createBoard({
             <h1 className={commonStylesStyles.title}>
                 Title Goes Here.
                 <br />
-                Click to Edit and Add
-                <br />
-                Your Own Text.
+                Click to Edit and Add Your Own Text.
             </h1>
             <div className={commonStylesStyles.btnSection}>
                 <button className={commonStylesStyles.secondaryButton}>Contact Us</button>
@@ -21,7 +19,7 @@ export default createBoard({
         </div>
     ),
     environmentProps: {
-        windowHeight: 640,
-        windowWidth: 1062,
+        windowHeight: 896,
+        windowWidth: 430,
     },
 });

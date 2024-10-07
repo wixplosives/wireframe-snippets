@@ -78,6 +78,51 @@
     text-align: center;
     line-height: 109px;
 }
+
+@media (width <= 480px) {
+    .heroSection {
+        padding: 10px;
+    }
+
+    .title {
+        font-size: 36px;
+        font-weight: 700;
+        text-align: center;
+        line-height: 48px;
+    }
+    .primaryButton {
+        padding-right: 18px;
+        padding-left: 18px;
+    }
+    .secondaryButton {
+        padding-right: 18px;
+        padding-left: 18px;
+    }
+}
+
+@media (width < 455px) {
+    .heroSection {
+        padding: 10px;
+    }
+    .title {
+        font-size: 36px;
+        font-weight: 700;
+        text-align: center;
+        line-height: 48px;
+    }
+
+    .primaryButton {
+        padding-right: 18px;
+        padding-left: 18px;
+        font-size: 12px;
+    }
+    .secondaryButton {
+        padding-right: 18px;
+        padding-left: 18px;
+        font-size: 12px;
+    }
+}
+
 .btnSection {
     display: flex;
     justify-content: center;
@@ -86,5 +131,21 @@
 }
 .heroSection {
     background: linear-gradient(292deg, #e1e2ff 0%, #ddebff 49.33%, #e3fbf9 98.67%);
-    padding: 100px;
+    padding: 40px;
+}
+
+@media (width <= 430px) {
+    .title {
+        font-size: 25px;
+        font-weight: 700;
+        text-align: center;
+        line-height: 33px;
+    }
+
+    .btnSection {
+    display: flex;
+    justify-content: center;
+    column-gap: 15px;
+    margin-top: 15px;
+}
 }

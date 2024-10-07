@@ -9,4 +9,8 @@ export default createBoard({
             <AboutPage />
         </PageWrapper>
     ),
+    environmentProps: {
+        windowWidth: 4823,
+        windowHeight: 2319,
+    },
 });
