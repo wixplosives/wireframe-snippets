@@ -8,16 +8,20 @@ export default createBoard({
     Board: () => (
         <div className={commonStylesStyles.heroSection}>
             <h1 className={commonStylesStyles.title}>
-                Title Goes Here.<br />Click to Edit and Add<br />Your Own Text.
-                
+                Title Goes Here.
+                <br />
+                Click to Edit and Add
+                <br />
+                Your Own Text.
             </h1>
             <div className={commonStylesStyles.btnSection}>
-                <button>Contact Us</button>
-                <button>Learn More</button>
+                <button className={commonStylesStyles.secondaryButton}>Contact Us</button>
+                <button className={commonStylesStyles.primaryButton}>Learn More</button>
             </div>
         </div>
     ),
     environmentProps: {
         windowHeight: 640,
+        windowWidth: 1062,
     },
 });
