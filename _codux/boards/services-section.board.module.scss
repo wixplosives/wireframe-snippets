@@ -70,6 +70,17 @@
     .allCards {
         width: auto;
         display: grid;
+        grid-template-rows: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+}
+
+@media (width <= 750px) {
+
+    .allCards {
+        width: auto;
+        display: grid;
         grid-template-rows: 1fr;
         grid-template-columns: 1fr;
         gap: 20px;
