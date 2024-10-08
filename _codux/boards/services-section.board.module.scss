@@ -8,6 +8,7 @@
     background-attachment: scroll;
     background-origin: padding-box;
     background-clip: border-box;
+    gap: 60px;
 }
 
 .servicesTitle {
@@ -25,4 +26,38 @@
 .content {
     display: flex;
     flex-direction: column;
+    min-width: 320px;
+}
+.allCards {
+    width: auto;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+.card {
+    padding: 24px;
+    background-color: #ffffff;
+    border-radius: 16px;
+    box-shadow: 0.71px 0.71px 20px rgba(0, 0, 0, 0.08);
+    min-width: 240px;
+    max-width: auto;
+}
+.serviceCardDescription {
+}
+.serviceCardTitle {
+    font-size: 20px;
+    line-height: 1.5em;
+    font-weight: 700;
+    padding-bottom: 8px;
+}
+.iconContainer {
+    width: 100%;
+    align-content: center;
+    display: flex;
+    justify-content: end;
+    padding-bottom: 24px;
+}
+.icon {
+    width: 32px;
 }
