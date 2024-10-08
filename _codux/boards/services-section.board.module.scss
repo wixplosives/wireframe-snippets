@@ -1,10 +1,28 @@
-.div1 {
-    width: auto;
+.servicesSection {
+    display: flex;
+    padding: 76px;
+    background-image: linear-gradient(90deg, #e1e2ff 0%, #e3fbf9 100%);
+    background-position: 0%;
+    background-size: auto;
+    background-repeat: repeat;
+    background-attachment: scroll;
+    background-origin: padding-box;
+    background-clip: border-box;
 }
-.servciesTitle {
+
+.servicesTitle {
+    color: 000000;
+    font-size: 47px;
+    line-height: 1.3em;
+    font-weight: 700;
+    padding-bottom: 16px;
 }
-.header1 {
-    color: #901e1e;
+.servicesDescription {
+    font-size: 16px;
+    line-height: 1.6em;
+    padding-bottom: 28px;
 }
-.p1 {
+.content {
+    display: flex;
+    flex-direction: column;
 }
