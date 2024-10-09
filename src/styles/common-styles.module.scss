@@ -41,29 +41,29 @@
     color: #000000;
 }
 
-.secondaryButton {
-    height: 50px;
-    display: flex;
-    align-items: center;
-    font: normal normal 400 normal 1rem / 1.3 'DM Sans', sans-serif;
-    cursor: pointer;
-    padding-right: 30px;
-    padding-left: 30px;
-    border: 1px solid #000000;
-    border-radius: 35px;
-    z-index: 1;
-    &:hover {
-        background-color: #000000;
-        border: 1px solid #729991;
-        color: #ffffff;
-    }
-    color: #000000;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    font-size: 16px;
-    justify-content: center;
-    width: 60%;
-}
+// .secondaryButton {
+//     height: 50px;
+//     display: flex;
+//     align-items: center;
+//     font: normal normal 400 normal 1rem / 1.3 'DM Sans', sans-serif;
+//     cursor: pointer;
+//     padding-right: 30px;
+//     padding-left: 30px;
+//     border: 1px solid #000000;
+//     border-radius: 35px;
+//     z-index: 1;
+//     &:hover {
+//         background-color: #000000;
+//         border: 1px solid #729991;
+//         color: #ffffff;
+//     }
+//     color: #000000;
+//     padding-top: 10px;
+//     padding-bottom: 10px;
+//     font-size: 16px;
+//     justify-content: center;
+//     width: 60%;
+// }
 
 .secondaryButtonWidth {
     height: 50px;
@@ -104,56 +104,56 @@
     margin-top: 2px;
 }
 
-.title {
-    font-size: 84px;
-    font-weight: 700;
-    text-align: center;
-    line-height: 88px;
-}
+// .title {
+//     font-size: 84px;
+//     font-weight: 700;
+//     text-align: center;
+//     line-height: 88px;
+// }
 
 @media (width < 455px) {
-    .heroSection {
-        padding: 10px;
-    }
-    .title {
-        font-size: 36px;
-        font-weight: 700;
-        text-align: center;
-        line-height: 48px;
-    }
+    // .heroSection {
+    //     padding: 10px;
+    // }
+    // .title {
+    //     font-size: 36px;
+    //     font-weight: 700;
+    //     text-align: center;
+    //     line-height: 48px;
+    // }
 
-    .primaryButton {
-        padding-right: 18px;
-        padding-left: 18px;
-        font-size: 12px;
-    }
-    .secondaryButton {
-        padding-right: 18px;
-        padding-left: 18px;
-        font-size: 12px;
-    }
+    // .primaryButton {
+    //     padding-right: 18px;
+    //     padding-left: 18px;
+    //     font-size: 12px;
+    // }
+    // .secondaryButton {
+    //     padding-right: 18px;
+    //     padding-left: 18px;
+    //     font-size: 12px;
+    // }
 }
 
-.btnSection {
-    display: flex;
-    justify-content: center;
-    margin-top: 30px;
-    flex-direction: row;
-    width: max-content;
-    column-gap: 30px;
-}
-.heroSection {
-    background: linear-gradient(292deg, #e1e2ff 0%, #ddebff 49.33%, #e3fbf9 98.67%);
-    padding: 40px;
-    height: auto;
-    max-height: 99999px;
-    min-height: 100vh;
-    align-content: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
+// .btnSection {
+//     display: flex;
+//     justify-content: center;
+//     margin-top: 30px;
+//     flex-direction: row;
+//     width: max-content;
+//     column-gap: 30px;
+// }
+// .heroSection {
+//     background: linear-gradient(292deg, #e1e2ff 0%, #ddebff 49.33%, #e3fbf9 98.67%);
+//     padding: 40px;
+//     height: auto;
+//     max-height: 99999px;
+//     min-height: 100vh;
+//     align-content: center;
+//     display: flex;
+//     flex-direction: column;
+//     align-items: center;
+//     justify-content: center;
+// }
 
 .heroHorizontal {
     height: auto;
@@ -207,27 +207,27 @@
 }
 
 @media (width <= 430px) {
-    .title {
-        font-size: 25px;
-        font-weight: 700;
-        text-align: center;
-        line-height: 33px;
-    }
+    // .title {
+    //     font-size: 25px;
+    //     font-weight: 700;
+    //     text-align: center;
+    //     line-height: 33px;
+    // }
 
-    .btnSection {
-        display: flex;
-        justify-content: center;
-        column-gap: 15px;
-        margin-top: 15px;
-    }
+    // .btnSection {
+    //     display: flex;
+    //     justify-content: center;
+    //     column-gap: 15px;
+    //     margin-top: 15px;
+    // }
 }
 
 @media (width <= 480px) {
-    .heroSection {
-        padding: 10px;
-        display: flex;
-        justify-content: center;
-    }
+    // .heroSection {
+    //     padding: 10px;
+    //     display: flex;
+    //     justify-content: center;
+    // }
 
     .image {
         object-fit: fill;
@@ -252,27 +252,27 @@
         flex-direction: column;
     }
 
-    .btnSection {
-        display: flex;
-        flex-direction: column;
-        row-gap: 15px;
-        width: max-content;
-    }
+    // .btnSection {
+    //     display: flex;
+    //     flex-direction: column;
+    //     row-gap: 15px;
+    //     width: max-content;
+    // }
 
-    .title {
-        font-size: 36px;
-        font-weight: 700;
-        text-align: center;
-        line-height: 48px;
-    }
-    .primaryButton {
-        padding-right: 18px;
-        padding-left: 18px;
-    }
-    .secondaryButton {
-        padding-right: 18px;
-        padding-left: 18px;
-    }
+    // .title {
+    //     font-size: 36px;
+    //     font-weight: 700;
+    //     text-align: center;
+    //     line-height: 48px;
+    // }
+    // .primaryButton {
+    //     padding-right: 18px;
+    //     padding-left: 18px;
+    // }
+    // .secondaryButton {
+    //     padding-right: 18px;
+    //     padding-left: 18px;
+    // }
 
     .titleLeft {
         font-size: 40px;
