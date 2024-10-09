@@ -5,6 +5,10 @@
 
     gap: 60px;
     flex-direction: row;
+
+    @media (width <= 1000px) {
+        flex-direction: column;
+    }
 }
 
 .servicesTitle {
@@ -37,6 +41,7 @@
     box-shadow: 0.71px 0.71px 20px rgba(0, 0, 0, 0.08);
     min-width: 265px;
 }
+
 .serviceCardDescription {
 }
 .serviceCardTitle {
@@ -57,10 +62,6 @@
 }
 
 @media (width <= 1000px) {
-    .servicesSection {
-        flex-direction: column;
-    }
-
     .allCards {
         width: auto;
         display: grid;
