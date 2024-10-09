@@ -16,7 +16,7 @@ export default createBoard({
             </div>
             <div className="servicesCards">
                 <div className="card servicesCard">
-                    <div className="iconContainer">
+                    <div className="servicesCardIconContainer ">
                         <img
                             src="https://static.wixstatic.com/shapes/27eba2_d9c1368c073d449fb7f70d1f27cdd94a.svg"
                             alt=""
@@ -31,7 +31,7 @@ export default createBoard({
                     </p>
                 </div>
                 <div className="servicesCard">
-                    <div className="iconContainer">
+                    <div className="servicesCardIconContainer ">
                         <img
                             src="https://static.wixstatic.com/shapes/27eba2_81a4aae870434124b16c503e6ed35e04.svg"
                             alt=""
@@ -46,7 +46,7 @@ export default createBoard({
                     </p>
                 </div>
                 <div className="servicesCard">
-                    <div className="iconContainer">
+                    <div className="servicesCardIconContainer ">
                         <img
                             src="https://static.wixstatic.com/shapes/27eba2_db3d5faaafdb48d8acc17eaa13c45dca.svg"
                             alt=""
@@ -61,7 +61,7 @@ export default createBoard({
                     </p>
                 </div>
                 <div className="servicesCard">
-                    <div className="iconContainer">
+                    <div className="servicesCardIconContainer ">
                         <img
                             src="https://static.wixstatic.com/shapes/27eba2_e55d51b82da445fd890f374888fd9bea.svg"
                             alt=""
