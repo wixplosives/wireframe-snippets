@@ -51,10 +51,12 @@
 
   @media (width <= 430px) {
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    column-gap: 15px;
+    row-gap: 15px;
     margin-top: 15px;
   }
+  
 }
 
 .secondaryButton {
