@@ -2,18 +2,12 @@
     display: flex;
     padding: 76px;
     background-image: linear-gradient(90deg, #e1e2ff 0%, #e3fbf9 100%);
-    background-position: 0%;
-    background-size: auto;
-    background-repeat: repeat;
-    background-attachment: scroll;
-    background-origin: padding-box;
-    background-clip: border-box;
+
     gap: 60px;
     flex-direction: row;
 }
 
 .servicesTitle {
-    color: 000000;
     font-size: 47px;
     line-height: 1.3em;
     font-weight: 700;
@@ -77,12 +71,24 @@
 }
 
 @media (width <= 750px) {
-
     .allCards {
         width: auto;
         display: grid;
         grid-template-rows: 1fr;
         grid-template-columns: 1fr;
         gap: 20px;
+    }
+}
+.button {
+    height: 50px;
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    padding-right: 30px;
+    padding-left: 30px;
+    border: 1px solid #000000;
+    border-radius: 50px;
+    &:hover {
     }
 }

@@ -1,11 +1,6 @@
 import { createBoard } from '@wixc3/react-board';
 import classNames from 'classnames';
 import styles from './services-section.board.module.scss';
-import commonStylesStyles from '../../src/styles/common-styles.module.scss';
-import LightningSvg from '../../src/assets/lightning.svg';
-import AnchorSvg from '../../src/assets/anchor.svg';
-import LeafSvg from '../../src/assets/leaf.svg';
-import GlobeSvg from '../../src/assets/globe.svg';
 
 export default createBoard({
     name: 'ServicesSection',
@@ -18,12 +13,16 @@ export default createBoard({
                     explain who&apos;s behind it, what it does and what makes it unique. Share its
                     core values and what this site has to offer.
                 </p>
-                <button className={commonStylesStyles.secondaryButtonWidth}>Explore</button>
+                <button className={styles.button}>Button</button>
             </div>
             <div className={styles.allCards}>
                 <div className={styles.card}>
                     <div className={styles.iconContainer}>
-                        <img src={AnchorSvg} alt="" className={styles.icon} />
+                        <img
+                            src="https://static.wixstatic.com/shapes/27eba2_d9c1368c073d449fb7f70d1f27cdd94a.svg"
+                            alt=""
+                            className={styles.icon}
+                        />
                     </div>
                     <h6 className={styles.serviceCardTitle}>Service Title</h6>
                     <p className={styles.serviceCardDescription}>
@@ -34,7 +33,11 @@ export default createBoard({
                 </div>
                 <div className={styles.card}>
                     <div className={styles.iconContainer}>
-                        <img src={LightningSvg} alt="" className={styles.icon} />
+                        <img
+                            src="https://static.wixstatic.com/shapes/27eba2_81a4aae870434124b16c503e6ed35e04.svg"
+                            alt=""
+                            className={styles.icon}
+                        />
                     </div>
                     <h6 className={styles.serviceCardTitle}>Service Title</h6>
                     <p className={styles.serviceCardDescription}>
@@ -45,7 +48,11 @@ export default createBoard({
                 </div>
                 <div className={styles.card}>
                     <div className={styles.iconContainer}>
-                        <img src={GlobeSvg} alt="" className={styles.icon} />
+                        <img
+                            src="https://static.wixstatic.com/shapes/27eba2_db3d5faaafdb48d8acc17eaa13c45dca.svg"
+                            alt=""
+                            className={styles.icon}
+                        />
                     </div>
                     <h6 className={styles.serviceCardTitle}>Service Title</h6>
                     <p className={styles.serviceCardDescription}>
@@ -56,7 +63,11 @@ export default createBoard({
                 </div>
                 <div className={styles.card}>
                     <div className={styles.iconContainer}>
-                        <img src={LeafSvg} alt="" className={styles.icon} />
+                        <img
+                            src="https://static.wixstatic.com/shapes/27eba2_e55d51b82da445fd890f374888fd9bea.svg"
+                            alt=""
+                            className={styles.icon}
+                        />
                     </div>
                     <h6 className={styles.serviceCardTitle}>Service Title</h6>
                     <p className={styles.serviceCardDescription}>
