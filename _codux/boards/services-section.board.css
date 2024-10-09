@@ -21,12 +21,12 @@
   line-height: 1.6em;
   padding-bottom: 28px;
 }
-.content {
+.servicesContent {
   display: flex;
   flex-direction: column;
   min-width: 275px;
 }
-.allCards {
+.servicesCards {
   width: auto;
   display: grid;
   grid-template-rows: 1fr 1fr;
@@ -50,7 +50,7 @@
   }
 }
 
-.card {
+.servicesCard {
   padding: 24px;
   background-color: #ffffff;
   border-radius: 16px;
@@ -74,11 +74,11 @@
   justify-content: end;
   padding-bottom: 24px;
 }
-.icon {
+.servicesCardIcon {
   width: 32px;
 }
 
-.button {
+.servicesButton {
   height: 50px;
   width: fit-content;
   display: flex;
