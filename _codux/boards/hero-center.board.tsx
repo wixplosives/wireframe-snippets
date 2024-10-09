@@ -11,8 +11,8 @@ export default createBoard({
                 Click to Edit and Add Your Own Text.
             </h1>
             <div className="heroButtons">
-                <button className="heroButton">Contact Us</button>
-                <button className="heroButton">Learn More</button>
+                <a href="#a" className="heroSecondaryButton">Contact Us</a>
+                <a href="#a" className="heroPrimaryButton">Learn More</a>
             </div>
         </div>
     ),

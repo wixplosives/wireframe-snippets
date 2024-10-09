@@ -2,7 +2,7 @@ import { Link } from '@remix-run/react';
 import { ROUTES } from '~/router/config';
 import styles from './error-component.module.scss';
 
-const unknownErrorTitle = 'Ooops, something went wrong';
+const unknownErrorTitle = 'Oops, something went wrong';
 
 export interface ErrorProps {
     title: string | undefined | null;
