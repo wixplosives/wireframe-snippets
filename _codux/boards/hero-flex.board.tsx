@@ -5,10 +5,11 @@ export default createBoard({
     name: 'HeroFlex',
     Board: () => (
         <div className="heroHorizontal">
-            <div className="image">
+            <div className="imageContainer">
                 <img
                     src="https://static.wixstatic.com/media/8586f3_c98b193548784753bb357eeb03615da5~mv2.jpg/v1/fill/w_1728,h_1378/Image%20by%20Johannes%20Plenio.jpg"
                     alt=""
+                    className="pic"
                 />
             </div>
             <div className="content">
@@ -25,7 +26,7 @@ export default createBoard({
         </div>
     ),
     environmentProps: {
-        windowWidth: 1073,
+        windowWidth: 1194,
         windowHeight: 662,
     },
 });
