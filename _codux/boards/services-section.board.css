@@ -1,0 +1,96 @@
+.servicesSection {
+  display: flex;
+  padding: 76px;
+  background-image: linear-gradient(90deg, #e1e2ff 0%, #e3fbf9 100%);
+  gap: 60px;
+  flex-direction: row;
+
+  @media (width <= 1024px) {
+    flex-direction: column;
+  }
+}
+
+.servicesTitle {
+  font-size: 47px;
+  line-height: 1.3em;
+  font-weight: 700;
+  padding-bottom: 16px;
+}
+.servicesDescription {
+  font-size: 16px;
+  line-height: 1.6em;
+  padding-bottom: 28px;
+}
+.servicesContent {
+  display: flex;
+  flex-direction: column;
+  min-width: 275px;
+}
+.servicesCards {
+  width: auto;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+
+  @media (width <= 1024px) {
+    width: auto;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
+
+  @media (width <= 768px) {
+    width: auto;
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+}
+
+.servicesCard {
+  padding: 24px;
+  background-color: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0.71px 0.71px 20px rgba(0, 0, 0, 0.08);
+  min-width: 265px;
+}
+
+.serviceCardDescription {
+}
+
+.serviceCardTitle {
+  font-size: 20px;
+  line-height: 1.5em;
+  font-weight: 700;
+  padding-bottom: 8px;
+}
+.servicesCardIconContainer {
+  width: 100%;
+  align-content: center;
+  display: flex;
+  justify-content: end;
+  padding-bottom: 24px;
+}
+.servicesCardIcon {
+  width: 32px;
+}
+
+.servicesButton {
+  height: 50px;
+  width: fit-content;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  padding-right: 30px;
+  padding-left: 30px;
+  border: 1px solid #000000;
+  border-radius: 50px;
+  &:hover {
+    background-color: #000000;
+    border: 1px solid #729991;
+    color: #ffffff;
+  }
+}
