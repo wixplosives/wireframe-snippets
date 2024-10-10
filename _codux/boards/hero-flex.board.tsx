@@ -21,12 +21,12 @@ export default createBoard({
                         or video.
                     </p>
                 </div>
-                <button className="secondaryButtonWidth">Explore</button>
+                <button className="button">Explore</button>
             </div>
         </div>
     ),
     environmentProps: {
-        windowWidth: 471,
+        windowWidth: 417,
         windowHeight: 662,
     },
 });
