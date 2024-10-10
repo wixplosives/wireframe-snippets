@@ -35,7 +35,7 @@ p {
 }
 
 .button {
-    font-size: calc(2.8rem + ((1vw - 19.2px) * 1.125));
+    font-size: calc(2.2rem + ((1vw - 19.2px) * 1.125));
     padding-right: 20px;
     padding-left: 20px;
     padding-bottom: 6px;
