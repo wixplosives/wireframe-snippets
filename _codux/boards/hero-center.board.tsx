@@ -11,13 +11,17 @@ export default createBoard({
                 Click to Edit and Add Your Own Text.
             </h1>
             <div className="heroButtons">
-                <a href="#a" className="heroSecondaryButton">Contact Us</a>
-                <a href="#a" className="heroPrimaryButton">Learn More</a>
+                <a href="#a" className="heroSecondaryButton">
+                    Contact Us
+                </a>
+                <a href="#a" className="heroPrimaryButton">
+                    Learn More
+                </a>
             </div>
         </div>
     ),
     environmentProps: {
-        windowHeight: 768,
-        windowWidth: 615,
+        windowHeight: 400,
+        windowWidth: 600,
     },
 });
