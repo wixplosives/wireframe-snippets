@@ -9,7 +9,6 @@ import {
 } from '@remix-run/react';
 import { ErrorComponent } from '~/components/error-component/error-component';
 import { SiteWrapper } from '~/components/site-wrapper/site-wrapper';
-import '~/styles/index.scss';
 
 export function Layout({ children }: { children: React.ReactNode }) {
     return (
