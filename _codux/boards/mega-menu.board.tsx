@@ -84,9 +84,9 @@ export default createBoard({
             <div className="navFeatured">
                 <div className="categoryTitle">Featured</div>
                 <div className="allMenuItems">
-                    <a href="/" className="menuItem">
+                    <a href="/" className="featuredItem">
                         <img
-                            src="https://static.wixstatic.com/media/27eba2_d68cbca76a1f41b0819f880581b5d3f6~mv2.png/v1/fill/w_400,h_400/27eba2_d68cbca76a1f41b0819f880581b5d3f6~mv2.png"
+                            src="https://static.wixstatic.com/media/27eba2_d68cbca76a1f41b0819f880581b5d3f6~mv2.png/v1/fill/w_360,h_360/27eba2_d68cbca76a1f41b0819f880581b5d3f6~mv2.png"
                             className="featuredImg"
                         />
                     </a>
@@ -96,6 +96,6 @@ export default createBoard({
     ),
     environmentProps: {
         windowHeight: 435,
-        windowWidth: 1505,
+        windowWidth: 1132,
     },
 });

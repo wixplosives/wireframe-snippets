@@ -37,7 +37,7 @@
 
 .menuItem:hover {
   color: #1f7745;
-  padding-left: 24px;
+  padding-left: 20px;
   background-color: #f6f6f6;
 }
 
@@ -67,22 +67,21 @@
   display: flex;
   flex-direction: column;
   padding: 24px;
-  background-color: #f6f6f6;
+  background-color: rgb(246, 246, 246);
   width: 33.3%;
 }
-.MegaMenuBoard_div1 {
-  background-repeat: no-repeat;
-  background-image: url('https://static.wixstatic.com/media/d9657b20f1b9473f90815b9da211bb2a.jpg/v1/fit/w_924,h_520/d9657b20f1b9473f90815b9da211bb2a.jpg');
-  background-position: 50%;
-  background-size: cover;
-  background-attachment: scroll;
-  background-origin: padding-box;
-  background-clip: border-box;
-  width: 200px;
-  height: 200px;
+
+.featuredItem {
+  padding: 24px;
+  transition: padding 0.3s ease;
 }
+
 .featuredImg {
   width: 250px;
   border-radius: 12px;
   height: 100%;
+  min-width: 200px;
+}
+.featuredItem:hover {
+  padding: 16px;
 }
