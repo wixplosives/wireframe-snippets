@@ -4,10 +4,10 @@ import { createBoard } from '@wixc3/react-board';
 export default createBoard({
     name: 'New Board',
     Board: () => (
-        <div className="card">
+        <div className="root">
             <div className="imgBox">
                 <img
-                    src="https://static.wixstatic.com/media/11062b_25e218a68cae48e98a21198d1280a6bd~mv2.jpg/v1/fill/w_860,h_800/11062b_25e218a68cae48e98a21198d1280a6bd~mv2.jpg"
+                    src="https://static.wixstatic.com/media/8586f3_f6d2538ac6374f71b6dc29511c5cd1a3~mv2.png/v1/fill/w_860,h_800/Frame%206.png"
                     alt="Delicious Margherita Pizza"
                     className="img"
                 />
@@ -25,7 +25,7 @@ export default createBoard({
         </div>
     ),
     environmentProps: {
-        windowWidth: 1055,
+        windowWidth: 851,
         windowHeight: 1014,
     },
 });
