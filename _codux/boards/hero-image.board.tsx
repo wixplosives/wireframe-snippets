@@ -13,19 +13,17 @@ export default createBoard({
                 />
             </div>
             <div className="contentBox">
-                <h1 className="title">Authentic Margherita Delight</h1>
+                <h1 className="title">Write a Title Here</h1>
                 <p className="description">
-                    Savor the taste of Italy with our classic Margherita pizza. Made with fresh
-                    mozzarella, ripe tomatoes, and fragrant basil on a perfectly crisp crust,
-                    it&apos;s a timeless favorite that captures the essence of traditional
-                    Neapolitan pizza-making.
+                    This is a space to welcome visitors to the site. Grab their attention with copy
+                    that clearly states what the site is about, and add an engaging image or video.
                 </p>
-                <button className="addToCartButton">Add to Cart</button>
+                <button className="exploreButton">Explore</button>
             </div>
         </div>
     ),
     environmentProps: {
-        windowWidth: 851,
-        windowHeight: 1014,
+        windowWidth: 1269,
+        windowHeight: 760,
     },
 });
