@@ -4,12 +4,8 @@ import './hero-center.board.css';
 export default createBoard({
     name: 'HeroCenter',
     Board: () => (
-        <div className="hero">
-            <h1 className="heroTitle">
-                Title Goes Here.
-                <br />
-                Click to Edit and Add Your Own Text.
-            </h1>
+        <div className="root">
+            <h1 className="heroTitle">Title Goes Here. Click to Edit and Add Your Own Text.</h1>
             <div className="heroButtons">
                 <a href="#a" className="heroSecondaryButton">
                     Contact Us
@@ -21,7 +17,7 @@ export default createBoard({
         </div>
     ),
     environmentProps: {
-        windowHeight: 507,
-        windowWidth: 698,
+        windowHeight: 932,
+        windowWidth: 532,
     },
 });
