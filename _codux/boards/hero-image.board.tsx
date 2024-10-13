@@ -2,7 +2,7 @@ import './hero-image.board.css';
 import { createBoard } from '@wixc3/react-board';
 
 export default createBoard({
-    name: 'New Board',
+    name: 'Hero Image',
     Board: () => (
         <div className="root">
             <div className="imgBox">
