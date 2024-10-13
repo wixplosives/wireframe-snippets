@@ -7,7 +7,7 @@ export default createBoard({
         <div className="servicesSection">
             <div className="servicesContent">
                 <h2 className="servicesTitle"> Write a Title Here</h2>
-                <p className="servicesDescription">
+                <p className="servicesDescription ServicesSectionBoard_p2">
                     This is the space to introduce visitors to the business or brand. Briefly
                     explain who&apos;s behind it, what it does and what makes it unique. Share its
                     core values and what this site has to offer.
@@ -15,7 +15,7 @@ export default createBoard({
                 <button className="servicesButton">Button</button>
             </div>
             <div className="servicesCards">
-                <div className="card servicesCard">
+                <div className="servicesCard">
                     <div className="servicesCardIconContainer ">
                         <img
                             src="https://static.wixstatic.com/shapes/27eba2_d9c1368c073d449fb7f70d1f27cdd94a.svg"
