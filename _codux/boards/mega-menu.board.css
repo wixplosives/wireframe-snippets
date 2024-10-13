@@ -1,0 +1,71 @@
+.categoryTitle {
+  font-size: 16px;
+  line-height: 1.4em;
+  padding-bottom: 24px;
+  color: #777777;
+  text-transform: uppercase;
+  margin-bottom: 24px;
+  border-bottom: 1px solid #dddddd;
+}
+.navCategory {
+  display: flex;
+  flex-direction: column;
+  padding: 24px;
+  width: 30%;
+}
+.navigationMegaMenu {
+  padding: 0px;
+  box-shadow: 0 2px 35px -19px black;
+  opacity: 0.6;
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+  display: flex;
+  flex-direction: row;
+}
+.menuItem {
+  display: flex;
+  column-gap: 8px;
+  font-weight: 700;
+  transition: color 0.3s ease, padding-left 0.3s ease;
+  font-size: 14px;
+  align-items: center;
+  flex-direction: row;
+  padding: 16px;
+  flex-wrap: wrap;
+}
+
+.menuItem:hover {
+  color: #1f7745;
+  padding-left: 24px;
+  background-color: #f6f6f6;
+}
+
+.iconContainer {
+  width: 16px;
+  height: 24px;
+}
+
+.allMenuItems {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+}
+.itemText {
+  flex-direction: column;
+  flex-grow: 1;
+  flex-shrink: 1;
+}
+.itemDescription {
+  font-weight: 400;
+  font-size: 12px;
+  display: flex;
+  flex-wrap: wrap;
+  overflow: visible;
+}
+.navFeatured {
+  display: flex;
+  flex-direction: column;
+  padding: 24px;
+  background-color: #f6f6f6;
+  width: 40%;
+}
