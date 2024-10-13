@@ -1,5 +1,5 @@
 import { createBoard } from '@wixc3/react-board';
-import './hero-flex.board.css';
+import './hero-header.board.css';
 
 export default createBoard({
     name: 'HeroFlex',

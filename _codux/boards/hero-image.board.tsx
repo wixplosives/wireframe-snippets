@@ -1,4 +1,4 @@
-import './hero-flex-2.board.css';
+import './hero-image.board.css';
 import { createBoard } from '@wixc3/react-board';
 
 export default createBoard({
