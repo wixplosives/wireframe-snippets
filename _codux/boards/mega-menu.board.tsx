@@ -85,17 +85,17 @@ export default createBoard({
                 <div className="categoryTitle">Featured</div>
                 <div className="allMenuItems">
                     <a href="/" className="menuItem">
-                        <div className="itemText">
-                            Case Study
-                            <p className="itemDescription">This is a description of this feature</p>
-                        </div>
+                        <img
+                            src="https://static.wixstatic.com/media/27eba2_d68cbca76a1f41b0819f880581b5d3f6~mv2.png/v1/fill/w_400,h_400/27eba2_d68cbca76a1f41b0819f880581b5d3f6~mv2.png"
+                            className="featuredImg"
+                        />
                     </a>
                 </div>
             </div>
         </div>
     ),
     environmentProps: {
-        windowHeight: 852,
-        windowWidth: 1124,
+        windowHeight: 435,
+        windowWidth: 1505,
     },
 });
