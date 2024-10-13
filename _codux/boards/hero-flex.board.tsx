@@ -4,24 +4,28 @@ import './hero-flex.board.css';
 export default createBoard({
     name: 'HeroFlex',
     Board: () => (
-        <div className="card">
-            <img
-                src="https://static.wixstatic.com/media/8586f3_c98b193548784753bb357eeb03615da5~mv2.jpg/v1/fill/w_600,h_600/Image%20by%20Johannes%20Plenio.jpg"
-                alt=""
-                className="card-image"
-            />
-            <div className="card-content">
-                <h2>Write aTitle Here</h2>
-                <p>
-                    This is a space to welcome visitors to the site. Grab their attention with copy
-                    that clearly states what the site is about, and add an engaging image or video
-                </p>
-                <button className="button">Explore</button>
-            </div>
+        <div className="root">
+            <article className="recipe">
+                <div className="pizza-box">
+                    <img
+                        src="https://static.wixstatic.com/media/0f2899b6eec14a0c867d375285c4f316.jpg/v1/fill/w_746,h_496,fp_0.52_0.27,q_85,usm_0.66_1.00_0.01,enc_auto/Fashion%20Art%20Model.jpg"
+                        alt=""
+                    />
+                </div>
+                <div className="recipe-content">
+                    <h1 className="recipe-title">
+                        <a href="#">Gluten Free Pan Pizza</a>
+                    </h1>
+                    <p className="recipe-desc">
+                        It really is possible to make excellent gluten free pizza at home in your
+                        own oven with our recipes and techniques.
+                    </p>
+                </div>
+            </article>
         </div>
     ),
     environmentProps: {
-        windowWidth: 1124,
-        windowHeight: 1080,
+        windowWidth: 1315,
+        windowHeight: 726,
     },
 });
