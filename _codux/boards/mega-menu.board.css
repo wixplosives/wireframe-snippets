@@ -31,7 +31,6 @@
   font-weight: 700;
   transition: color 0.3s ease, padding-left 0.3s ease;
   font-size: 14px;
-  align-items: start;
   flex-direction: row;
   padding: 16px;
   color: #67695f;
@@ -40,11 +39,9 @@
 .menuItem:hover {
   color: #20a75a;
   padding-left: 20px;
+  border-radius: 12px;
   background-color: #f6f6f6;
-  border-top-left-radius: 12px;
-  border-top-right-radius: 12px;
-  border-bottom-left-radius: 12px;
-  border-bottom-right-radius: 12px;
+  border: 12px;
 }
 
 .iconContainer {
@@ -87,7 +84,7 @@
 .featuredItem {
   display: flex;
   padding: 8px;
-  margin: 0px;
+
   background-color: #ffffff;
   column-gap: 8px;
   transition: box-shadow 0.3s ease;
@@ -95,7 +92,7 @@
   flex-wrap: wrap;
   row-gap: 8px;
   border: 1px solid #20a75a;
-  border-radius: 8px;
+  border-radius: 12px;
   cursor: pointer;
 }
 
