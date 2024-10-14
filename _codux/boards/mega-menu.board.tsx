@@ -83,19 +83,31 @@ export default createBoard({
             </div>
             <div className="navFeatured">
                 <div className="categoryTitle">Featured</div>
-                <div className="allMenuItems">
-                    <a href="/" className="featuredItem">
-                        <img
-                            src="https://static.wixstatic.com/media/27eba2_d68cbca76a1f41b0819f880581b5d3f6~mv2.png/v1/fill/w_360,h_360/27eba2_d68cbca76a1f41b0819f880581b5d3f6~mv2.png"
-                            className="featuredImg"
-                        />
-                    </a>
-                </div>
+                <a className="featuredItem">
+                    <img
+                        src="https://static.wixstatic.com/media/27eba2_d68cbca76a1f41b0819f880581b5d3f6~mv2.png/v1/fill/w_360,h_360/27eba2_d68cbca76a1f41b0819f880581b5d3f6~mv2.png"
+                        className="featuredImg"
+                    />
+                    <div className="featuredText">
+                        Article about AI
+                        <p className="itemDescription">Read more</p>
+                    </div>
+                </a>
+                <a className="featuredItem">
+                    <img
+                        src="https://static.wixstatic.com/media/27eba2_d68cbca76a1f41b0819f880581b5d3f6~mv2.png/v1/fill/w_360,h_360/27eba2_d68cbca76a1f41b0819f880581b5d3f6~mv2.png"
+                        className="featuredImg"
+                    />
+                    <div className="featuredText">
+                        Article about AI
+                        <p className="itemDescription">Read more</p>
+                    </div>
+                </a>
             </div>
         </div>
     ),
     environmentProps: {
         windowHeight: 565,
-        windowWidth: 1334,
+        windowWidth: 1434,
     },
 });
