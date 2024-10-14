@@ -55,7 +55,6 @@
 .allMenuItems {
   display: flex;
   flex-direction: column;
-  gap: 0px;
 }
 .itemText {
   flex-direction: column;
@@ -67,7 +66,7 @@
   font-size: 12px;
   display: flex;
   flex-wrap: wrap;
-  overflow: visible;
+  transition: margin-bottom 0.3s ease;
 }
 .navFeatured {
   display: flex;
@@ -80,11 +79,12 @@
 }
 
 .featuredImg {
-  width: 60px;
+  width: 50px;
   border-radius: 8px;
   min-width: 75px;
-  height: 60px;
+  height: 50px;
 }
+
 .featuredItem {
   display: flex;
   padding: 8px;
@@ -102,7 +102,13 @@
 
 .featuredItem:hover {
   box-shadow: 0 3px 27px 3px rgb(221, 221, 221);
+
+  .itemDescription {
+    margin-bottom: 4px;
+    transition: margin-bottom 0.6s ease;
+  }
 }
+
 .featuredText {
   display: flex;
   flex-direction: column;
