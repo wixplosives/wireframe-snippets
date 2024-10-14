@@ -1,4 +1,4 @@
-.servicesSection {
+.section {
   padding: 76px;
   background-image: linear-gradient(90deg, #e1e2ff 0%, #e3fbf9 100%);
   display: flex;
@@ -9,30 +9,29 @@
   justify-content: space-between;
 }
 
-.servicesContent {
+.section_content {
   display: flex;
   flex-direction: column;
   flex-basis: 300px;
   min-width: 300px;
   justify-content: center;
   flex-grow: 1;
-
-  .servicesTitle {
-    font-size: 47px;
-    line-height: 1.3em;
-    font-weight: 700;
-    padding-bottom: 16px;
-  }
-  .servicesDescription {
-    font-size: 16px;
-    line-height: 1.6em;
-    padding-bottom: 28px;
-  }
-  max-width: 700px;
-  width: 30%;
 }
 
-.servicesCards {
+.section_title {
+  font-size: 47px;
+  line-height: 1.3em;
+  font-weight: 700;
+  padding-bottom: 16px;
+}
+
+.section_description {
+  font-size: 16px;
+  line-height: 1.6em;
+  padding-bottom: 28px;
+}
+
+.card-grid {
   display: grid;
   gap: 20px;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -41,34 +40,36 @@
   flex-grow: 1;
 }
 
-.servicesCard {
+.card {
   padding: 24px;
   background-color: #ffffff;
   border-radius: 16px;
   box-shadow: 0.71px 0.71px 20px rgba(0, 0, 0, 0.08);
 }
 
-.serviceCardDescription {
+.card_description {
 }
 
-.serviceCardTitle {
+.card_title{
   font-size: 20px;
   line-height: 1.5em;
   font-weight: 700;
   padding-bottom: 8px;
 }
-.servicesCardIconContainer {
+
+.card_icon-container {
   width: 100%;
   align-content: center;
   display: flex;
   justify-content: end;
   padding-bottom: 24px;
 }
-.servicesCardIcon {
+
+.card_icon {
   width: 32px;
 }
 
-.servicesButton {
+.button {
   height: 50px;
   width: fit-content;
   display: flex;
