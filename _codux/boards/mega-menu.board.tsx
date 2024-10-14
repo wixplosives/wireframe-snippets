@@ -79,6 +79,28 @@ export default createBoard({
                             <p className="itemDescription">This is a description of this feature</p>
                         </div>
                     </a>
+                    <a href="/" className="menuItem">
+                        <img
+                            src="https://static.wixstatic.com/shapes/27eba2_81a4aae870434124b16c503e6ed35e04.svg"
+                            alt=""
+                            className="iconContainer"
+                        />
+                        <div className="itemText">
+                            Link one
+                            <p className="itemDescription">This is a description of this feature</p>
+                        </div>
+                    </a>
+                    <a href="/" className="menuItem">
+                        <img
+                            src="https://static.wixstatic.com/shapes/27eba2_81a4aae870434124b16c503e6ed35e04.svg"
+                            alt=""
+                            className="iconContainer"
+                        />
+                        <div className="itemText">
+                            Link one
+                            <p className="itemDescription">This is a description of this feature</p>
+                        </div>
+                    </a>
                 </div>
             </div>
             <div className="navFeatured">
@@ -115,7 +137,7 @@ export default createBoard({
         </div>
     ),
     environmentProps: {
-        windowHeight: 565,
-        windowWidth: 1594,
+        windowHeight: 607,
+        windowWidth: 1171,
     },
 });
