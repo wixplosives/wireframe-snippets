@@ -111,3 +111,38 @@
   justify-content: space-between;
   flex-wrap: wrap;
 }
+.MegaMenuBoard_button1 {
+}
+.categoryButton {
+}
+.featuredButton {
+}
+.readAll {
+}
+
+.arrowIcon {
+  width: 24px;
+  height: 24px;
+  align-self: end;
+  transform: rotate(0deg);
+  transition: transform 0.5s ease-in-out;
+}
+
+.allArticles {
+  display: flex;
+  gap: 2px;
+  transition: gap 0.4s ease;
+  height: 100%;
+}
+.allArticles:hover {
+  gap: 60%;
+}
+
+.allArticles:hover .arrowIcon {
+  transform: rotate(360deg);
+}
+
+.allArticlesButton {
+  align-self: end;
+  cursor: pointer;
+}

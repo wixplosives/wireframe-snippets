@@ -133,6 +133,14 @@ export default createBoard({
                         Article about That<p className="itemDescription">Read more</p>
                     </div>
                 </a>
+                <div className="allArticles">
+                    <button className="allArticlesButton">All articles</button>
+                    <img
+                        src="https://static.wixstatic.com/shapes/11062b_e3819d6109be478790cdd834772b0bdf.svg?fileUsed=false"
+                        alt=""
+                        className="arrowIcon"
+                    />
+                </div>
             </div>
         </div>
     ),
