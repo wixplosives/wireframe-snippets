@@ -132,7 +132,7 @@
   display: flex;
   gap: 2px;
   transition: gap 0.4s ease;
-  height: 100%;
+  margin-top: auto;
 }
 .allArticles:hover {
   gap: 60%;
