@@ -42,6 +42,13 @@ export default createBoard({
                         </div>
                     </a>
                 </div>
+                <a href="/" className="categoryHighlight">
+                    <img
+                        src="https://plus.unsplash.com/premium_photo-1707146617695-884c18a3fcff?q=80&amp;w=3540&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                        alt=""
+                        className="highlightImage"
+                    />
+                </a>
             </div>
             <div className="navCategory">
                 <div className="categoryTitle">Category</div>
@@ -146,6 +153,6 @@ export default createBoard({
     ),
     environmentProps: {
         windowHeight: 607,
-        windowWidth: 1373,
+        windowWidth: 1292,
     },
 });

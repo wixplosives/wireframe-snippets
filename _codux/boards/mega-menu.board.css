@@ -135,7 +135,7 @@
   margin-top: auto;
 }
 .allArticles:hover {
-  gap: 60%;
+  gap: 5%;
 }
 
 .allArticles:hover .arrowIcon {
@@ -145,4 +145,17 @@
 .allArticlesButton {
   align-self: end;
   cursor: pointer;
+}
+.highlightImage {
+  border-radius: 12px;
+  padding: 0px;
+  margin: 0px;
+}
+.MegaMenuBoard_a1 {
+  padding-right: ׳;
+  padding-bottom: /;
+  padding-left: ׳;
+}
+.categoryHighlight {
+  padding: 12px;
 }
