@@ -48,6 +48,7 @@ export default createBoard({
                         alt=""
                         className="highlightImage"
                     />
+                    <h4 className="highlightText">Read more </h4>
                 </a>
             </div>
             <div className="navCategory">
@@ -153,6 +154,6 @@ export default createBoard({
     ),
     environmentProps: {
         windowHeight: 607,
-        windowWidth: 1292,
+        windowWidth: 1122,
     },
 });

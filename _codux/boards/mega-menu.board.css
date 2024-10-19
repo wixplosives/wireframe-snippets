@@ -111,8 +111,6 @@
   justify-content: space-between;
   flex-wrap: wrap;
 }
-.MegaMenuBoard_button1 {
-}
 .categoryButton {
 }
 .featuredButton {
@@ -150,12 +148,37 @@
   border-radius: 12px;
   padding: 0px;
   margin: 0px;
+  transition: filter 0.4s ease;
 }
-.MegaMenuBoard_a1 {
-  padding-right: ׳;
-  padding-bottom: /;
-  padding-left: ׳;
-}
+
 .categoryHighlight {
   padding: 12px;
+  width: 80%;
+  transition: margin 0.4s ease;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+}
+.categoryHighlight:hover {
+  margin-left: 12px;
+}
+
+.categoryHighlight:hover .highlightText {
+  opacity: 1;
+}
+
+.categoryHighlight:hover .highlightImage {
+  filter: brightness(70%);
+}
+
+.highlightText {
+  top: auto;
+  opacity: 0;
+  transition: opacity 0.5s ease;
+  color: #ffffff;
+  align-self: center;
+  position: absolute;
+  font-size: 16px;
+  font-weight: 700;
 }
