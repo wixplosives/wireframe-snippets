@@ -12,7 +12,8 @@
 
 .heroTitle {
     max-width: 15em;
-    font-size: calc(6rem + ((1vw - 20px) * 4));
+    /* font-size: calc(6rem + ((1vw - 20px) * 4)); */
+    font-size: 120px;
     min-height: 0vw;
     font-weight: 700;
     text-align: center;
@@ -28,14 +29,19 @@
 
 .heroPrimaryButton,
 .heroSecondaryButton {
-    padding: clamp(8px, 1.5vw, 12px) clamp(15px, 3vw, 25px);
+    /* padding: clamp(8px, 1.5vw, 12px) clamp(15px, 3vw, 25px); */
     color: white;
     border: 1px solid black;
-    border-radius: 30px;
-    font-size: clamp(14px, 2vw, 18px);
+    border-radius: 50px;
+    /* font-size: clamp(14px, 2vw, 18px); */
+    font-size: 30px;
     cursor: pointer;
     transition: background-color 0.3s ease;
     align-self: flex-start;
+    padding-right: 36px;
+    padding-left: 36px;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 .heroPrimaryButton {
@@ -53,5 +59,39 @@
     &:hover {
         color: #fff;
         background: #000;
+    }
+}
+
+@media (width <= 768px) {
+    .heroTitle {
+        font-size: 70px;
+    }
+
+    .heroButtons {
+        display: flex;
+        flex-direction: column;
+    }
+    .heroPrimaryButton,
+    .heroSecondaryButton {
+        font-size: 26px;
+        padding-right: 36px;
+        padding-left: 36px;
+        padding-top: 24px;
+        padding-bottom: 24px;
+    }
+}
+
+@media (width <= 480px) {
+    .heroTitle {
+        font-size: 40px;
+    }
+    .heroButtons {
+        display: flex;
+        flex-direction: column;
+    }
+    .heroPrimaryButton,
+    .heroSecondaryButton {
+        font-size: 20px;
+        padding: 16px 24px 12px;
     }
 }
