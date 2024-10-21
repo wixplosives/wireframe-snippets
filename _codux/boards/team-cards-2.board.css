@@ -4,6 +4,7 @@
     justify-content: center;
     font-family: Arial, sans-serif;
     min-height: 800px;
+    max-height: 700px;
 }
 
 .card {
@@ -17,6 +18,7 @@
     object-fit: cover;
     transition: transform 0.75s;
     height: 100%;
+    width: 100%;
 }
 
 .card:hover .card-image {
@@ -90,6 +92,8 @@
         display: flex;
         min-height: 300px;
         flex-direction: column;
-        man-height: 290px;
+        min-height: 290px;
     }
+
+
 }
