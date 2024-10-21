@@ -41,13 +41,29 @@
 }
 
 .teamTitle {
-    font-size:50px;
+    font-size: 50px;
+
+    @media (width <= 768px) {
+        font-size: 40px;
+    }
+
+    @media (width <= 480px) {
+        font-size: 30px;
+    }
 }
 
 .description {
     font-size: 18px;
     line-height: 1.5;
     text-wrap: pretty;
+
+    @media (width <= 768px) {
+        font-size: 24px;
+    }
+
+    @media (width <= 480px) {
+        font-size: 24px;
+    }
 }
 
 .exploreButton {
@@ -70,48 +86,33 @@
     margin-top: 4vh;
     gap: clamp(2rem, 0.2073rem + 1.4634vw, 1.25rem);
     flex-direction: row;
+
+    @media (width <= 768px) {
+        display: flex;
+        flex-direction: column;
+    }
+
+    @media (width <= 480px) {
+        display: flex;
+        flex-direction: column;
+    }
 }
+
 .title {
     font-family: Arial, sans-serif;
     font-size: 70px;
     text-align: center;
     font-weight: 700;
     text-wrap: pretty;
-}
-.teamCard:hover {
-    box-shadow: 0 6px 30px rgba(33, 33, 33, 0.2);
-}
 
-@media (width <= 768px) {
-    .teams {
-        display: flex;
-        flex-direction: column;
-    }
-    .title {
+    @media (width <= 768px) {
         font-size: 60px;
     }
-    .description {
-        font-size: 24px;
-    }
-    .teamTitle {
-    font-size:40px;
-}
-}
-
-@media (width <= 480px) {
-    .teams {
-        display: flex;
-        flex-direction: column;
-    }
-
-    .title {
+    @media (width <= 480px) {
         font-size: 30px;
     }
-
-    .description {
-        font-size: 24px;
-    }
-        .teamTitle {
-    font-size:30px;
 }
+
+.teamCard:hover {
+    box-shadow: 0 6px 30px rgba(33, 33, 33, 0.2);
 }
