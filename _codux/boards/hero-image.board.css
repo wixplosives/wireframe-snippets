@@ -7,6 +7,10 @@
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     font-family: Arial, sans-serif;
     flex-direction: row;
+
+@media (width <= 768px) {
+        flex-direction: column;
+    }
 }
 
 .imgBox {
@@ -29,12 +33,18 @@
 
 .title {
     font-size: 70px;
+    @media (width <= 1024px) {
+        font-size: 50px;
+    }
 }
 
 .description {
     font-size: 24px;
     line-height: 1.5;
     text-wrap: pretty;
+    @media (width <= 1024px) {
+        font-size: 20px;
+    }
 }
 
 .exploreButton {
@@ -46,6 +56,10 @@
     transition: background-color 0.3s ease-out;
     align-self: flex-start;
     color: #ffffff;
+    @media (width <= 1024px) {
+        font-size: 16px;
+    }
+
 }
 
 .addToCartButton:hover {
@@ -53,20 +67,5 @@
     color: #ffffff;
 }
 
-@media (width <= 1024px) {
-    .title {
-        font-size: 50px;
-    }
-    .description {
-        font-size: 20px;
-    }
-    .exploreButton {
-        font-size: 16px;
-    }
-}
 
-@media (width <= 768px) {
-    .root {
-        flex-direction: column;
-    }
-}
+
