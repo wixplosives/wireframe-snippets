@@ -7,31 +7,50 @@ export default createBoard({
         <div className="root">
             <div className="card">
                 <img
-                    src="https://static.wixstatic.com/media/11062b_25e218a68cae48e98a21198d1280a6bd~mv2.jpg/v1/fill/w_600,h_399,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/11062b_25e218a68cae48e98a21198d1280a6bd~mv2.jpg"
+                    src="https://static.wixstatic.com/media/8586f3_f6d2538ac6374f71b6dc29511c5cd1a3~mv2.png/v1/fill/w_860,h_600/Frame%206.png"
                     alt=""
                     className="card-image"
                 />
-                <h1 className="card-title">Heading 1</h1>
+                <div className="content">
+                    <h1 className="card-title">Featured Item Two</h1>
+                    <p className="subtitle">
+                        Add paragraph text. Click “Edit Text” to update the font, size and more. To
+                        change and reuse text themes, go to Site Styles.
+                    </p>
+                </div>
             </div>
             <div className="card">
                 <img
-                    src="https://static.wixstatic.com/media/11062b_25e218a68cae48e98a21198d1280a6bd~mv2.jpg/v1/fill/w_600,h_399,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/11062b_25e218a68cae48e98a21198d1280a6bd~mv2.jpg"
+                    src="https://static.wixstatic.com/media/8586f3_f6d2538ac6374f71b6dc29511c5cd1a3~mv2.png/v1/fill/w_860,h_600/Frame%206.png"
                     alt=""
                     className="card-image"
                 />
-                <h1 className="card-title">Heading 1</h1>
+                <div className="content">
+                    <h1 className="card-title">Featured Item Two</h1>
+                    <p className="subtitle">
+                        Add paragraph text. Click “Edit Text” to update the font, size and more. To
+                        change and reuse text themes, go to Site Styles.
+                    </p>
+                </div>
             </div>
             <div className="card">
                 <img
-                    src="https://static.wixstatic.com/media/11062b_25e218a68cae48e98a21198d1280a6bd~mv2.jpg/v1/fill/w_600,h_399,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/11062b_25e218a68cae48e98a21198d1280a6bd~mv2.jpg"
+                    src="https://static.wixstatic.com/media/8586f3_f6d2538ac6374f71b6dc29511c5cd1a3~mv2.png/v1/fill/w_860,h_600/Frame%206.png"
                     alt=""
                     className="card-image"
                 />
-                <h1 className="card-title">Heading 1</h1>
+                <div className="content">
+                    <h1 className="card-title">Featured Item Two</h1>
+                    <p className="subtitle">
+                        Add paragraph text. Click “Edit Text” to update the font, size and more. To
+                        change and reuse text themes, go to Site Styles.
+                    </p>
+                </div>
             </div>
         </div>
     ),
     environmentProps: {
-        windowWidth: 1390,
+        windowWidth: 480,
+        windowHeight: 1080,
     },
 });
