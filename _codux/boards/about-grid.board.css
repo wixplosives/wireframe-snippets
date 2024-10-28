@@ -1,0 +1,44 @@
+.AboutGridBoard_div1 {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 2fr 1fr;
+    gap: 16px;
+    margin: 40px;
+}
+.cell {
+    display: flex;
+    background-color: #e0e5fc;
+    border-radius: 12px;
+    justify-content: center;
+    align-items: center;
+}
+.twocell {
+    grid-row: 1 / 2;
+    grid-column: 2 / 4;
+}
+.threeCell {
+    grid-row: 3 / 4;
+    grid-column: 1 / 4;
+    height: 136px;
+}
+.AboutGridBoard_img1 {
+    width: 100%;
+    object-fit: cover;
+    border-radius: 12px;
+}
+.AboutGridBoard_header1 {
+    font-family: Arial, sans-serif;
+    font-size: 60px;
+    font-weight: 700;
+}
+.spacing {
+    padding: 20px;
+}
+.AboutGridBoard_header2 {
+    font-family: Arial, sans-serif;
+    font-size: 24px;
+}
+.AboutGridBoard_p1 {
+    font-family: Arial, sans-serif;
+    line-height: 1.6em;
+}
