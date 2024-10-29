@@ -6,10 +6,11 @@ export default createBoard({
     Board: () => (
         <div>
             <div className="AboutGridBoard_div1">
-                <div className="cell">
+                <div className="imageCell">
                     <img
                         src="https://static.wixstatic.com/media/11062b_25e218a68cae48e98a21198d1280a6bd~mv2.jpg/v1/fill/w_600,h_399,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/11062b_25e218a68cae48e98a21198d1280a6bd~mv2.jpg"
                         alt=""
+                        className="image"
                     />
                 </div>
                 <div className="cell twocell spacing">
@@ -28,19 +29,20 @@ export default createBoard({
                     </p>
                 </div>
                 <div className="cell spacing">
-                    <button>Button</button>
+                    <button className="AboutGridBoard_button1">Button</button>
                 </div>
                 <div className="cell threeCell">
                     <img
                         src="https://static.wixstatic.com/media/11062b_25e218a68cae48e98a21198d1280a6bd~mv2.jpg/v1/fill/w_600,h_399,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/11062b_25e218a68cae48e98a21198d1280a6bd~mv2.jpg"
                         alt=""
-                        className="AboutGridBoard_img1"
+                        className="image"
                     />
                 </div>
             </div>
         </div>
     ),
     environmentProps: {
-        windowWidth: 1356,
+        windowWidth: 890,
+        windowHeight: 694,
     },
 });
