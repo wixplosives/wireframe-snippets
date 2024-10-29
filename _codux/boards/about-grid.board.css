@@ -1,28 +1,53 @@
-.AboutGridBoard_div1 {
+.root {
     display: grid;
     grid-template-rows: 1fr 1fr 1fr;
     grid-template-columns: 1fr 2fr 1fr;
     gap: 16px;
     margin: 40px;
+    @media (width < 768px) {
+        grid-template-columns: 1fr 2fr;
+        grid-template-rows: 1fr 1fr 0.5fr 1fr;
+    }
 }
-.cell {
+
+
+
+.titleCell {
     display: flex;
     background-color: #e0e5fc;
     border-radius: 12px;
     justify-content: center;
     align-items: center;
-}
-.twocell {
-    grid-row: 1 / 2;
     grid-column: 2 / 4;
+
+    @media (width < 768px) {
+        grid-column: 2 / 4;
+    }
 }
-.threeCell {
+.buttonCell {
+    display: flex;
+    background-color: #e0e5fc;
+    border-radius: 12px;
+    justify-content: center;
+    align-items: center;
+
+      @media (width < 768px) {
+         grid-row: 3 / 4;
+    grid-column: 1 / 4;
+    }
+}
+.imge2 {
     grid-row: 3 / 4;
     grid-column: 1 / 4;
     height: 136px;
+     @media (width < 768px) {
+         grid-row: 4 / 4;
+    grid-column: 1 / 4;
+    }
+ 
 }
 
-.AboutGridBoard_header1 {
+.title {
     font-family: Arial, sans-serif;
     font-size: 60px;
     font-weight: 700;
@@ -31,12 +56,12 @@
 .spacing {
     padding: 20px;
 }
-.AboutGridBoard_header2 {
+.subtitle {
     font-family: Arial, sans-serif;
     font-size: 24px;
     text-align: center;
 }
-.AboutGridBoard_p1 {
+.content {
     font-family: Arial, sans-serif;
     line-height: 1.6em;
 }
@@ -44,7 +69,7 @@
     background-color: #e0e5fc;
     border-radius: 12px;
 }
-.AboutGridBoard_button1 {
+.button {
     font-family: Arial, sans-serif;
     padding: 17px 26px;
     border: 1px solid black;
@@ -53,6 +78,28 @@
 .image {
     object-fit: cover;
     width: 100%;
-        border-radius: 12px;
+    border-radius: 12px;
+    height: 100%;
+}
+.subtitleCell {
+    display: flex;
+    background-color: #e0e5fc;
+    border-radius: 12px;
+    justify-content: center;
+    align-items: center;
+    @media (width < 768px) {
+        grid-column: 1 / 2;
+    }
+}
+.contentCell {
+    display: flex;
+    background-color: #e0e5fc;
+    border-radius: 12px;
+    justify-content: center;
+    align-items: center;
+
+    @media (width < 768px) {
+        grid-column: 2 / 4;
+    }
 
 }
