@@ -4,7 +4,7 @@ import { createBoard } from '@wixc3/react-board';
 export default createBoard({
     name: 'Team Cards 1',
     Board: () => (
-        <div className="root">
+        <div className="teamCards">
             <h1 className="title">
                 Write a Title Here.
                 <br /> Click to Edit and Add Your Own Text.

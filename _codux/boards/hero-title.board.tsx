@@ -4,7 +4,7 @@ import { createBoard } from '@wixc3/react-board';
 export default createBoard({
     name: 'Hero Title',
     Board: () => (
-        <div className="root">
+        <div className="heroTitle">
             <h1 className="heroTitle">Title Goes Here. Click to Edit and Add Your Own Text.</h1>
             <div className="heroButtons">
                 <a href="#a" className="heroSecondaryButton">
@@ -17,7 +17,7 @@ export default createBoard({
         </div>
     ),
     environmentProps: {
-        windowWidth: 480,
+        windowWidth: 300,
         windowHeight: 1080,
     },
 });

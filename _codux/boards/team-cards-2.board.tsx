@@ -4,7 +4,7 @@ import { createBoard } from '@wixc3/react-board';
 export default createBoard({
     name: 'Team Cards 2',
     Board: () => (
-        <div className="root">
+        <div className="teamCards">
             <div className="card">
                 <img
                     src="https://static.wixstatic.com/media/8586f3_f6d2538ac6374f71b6dc29511c5cd1a3~mv2.png/v1/fill/w_860,h_600/Frame%206.png"
