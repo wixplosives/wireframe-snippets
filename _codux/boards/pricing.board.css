@@ -20,8 +20,9 @@
     transition: box-shadow 0.3s;
     background-color: #ffffff;
     padding: 12px;
-    min-width: 280px;
+    min-width: 230px;
     max-width: 308px;
+    
 }
 .PricingBoard_imgBox {
     align-self: center;
@@ -31,7 +32,7 @@
     height: 80px;
     object-fit: cover;
 }
-.PricingBoard_contentBox {
+.contentBox {
     padding: 12px;
     display: flex;
     flex-direction: column;
@@ -61,7 +62,7 @@
     text-align: center;
     color: #969696;
 }
-.exploreButton {
+.button {
     padding: 12px 24px;
     background-color: #000000;
     border-radius: 30px;
@@ -74,9 +75,14 @@
     display: flex;
     justify-content: center;
 }
-.PricingBoard_teams {
+.pricings {
     display: flex;
     flex-direction: row;
+
+        @media (width <= 1024px) {
+        display: flex;
+        flex-direction: column;
+    }
     @media (width <= 768px) {
         display: flex;
         flex-direction: column;
@@ -90,6 +96,8 @@
     justify-content: center;
     column-gap: 40px;
 }
+
+
 .PricingBoard_title {
     font-family: Arial, sans-serif;
     font-size: 70px;
@@ -106,17 +114,17 @@
 .PricingBoard_teamCard:hover {
     box-shadow: 0 6px 30px rgba(33, 33, 33, 0.2);
 }
-.PricingBoard_header1 {
+.header {
     font-size: 20px;
     text-transform: uppercase;
     font-weight: 500;
 }
-.PricingBoard_header2 {
+.priceText {
     font-size: 36px;
     font-weight: 600;
     color: #0782f2;
 }
-.PricingBoard_p1 {
+.list {
     text-align: start;
     font-size: 14px;
 }
@@ -129,6 +137,22 @@
     column-gap: 6px;
 }
 .premium {
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+    flex-direction: column;
+    flex-grow: 1;
+    flex-shrink: 1;
+    /* flex-basis: 120px; */
+    /* min-width: 300px; */
+    cursor: pointer;
+    transition: box-shadow 0.3s;
+    padding: 12px;
+    min-width: 230px;
+    max-width: 308px;
     background-color: #2f3e4c;
     color: #ffffff;
 }
