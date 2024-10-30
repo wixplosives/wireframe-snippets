@@ -7,59 +7,160 @@ export default createBoard({
         <div>
             <div className="PricingBoard_teams">
                 <div className="priceCard">
-                    <div className="PricingBoard_imgBox">
-                        <img
-                            src="https://static.wixstatic.com/media/8586f3_f6d2538ac6374f71b6dc29511c5cd1a3~mv2.png/v1/fill/w_860,h_600/Frame%206.png"
-                            alt="Delicious Margherita Pizza"
-                            className="PricingBoard_img"
-                        />
-                    </div>
                     <div className="PricingBoard_contentBox">
-                        <h2 className="teamTitle ">Basic</h2>
-                        <h1>$19/mo</h1>
+                        <h2 className="teamTitle PricingBoard_header1">Basic Plan</h2>
+                        <h1 className="PricingBoard_header2">$19/mo</h1>
                         <p className="description">Billed monthly</p>
                     </div>
-                    <div className="PricingBoard_contentBox">
-                        <h2 className="teamTitle "></h2>
-                        <p className="PricingBoard_description">
-                            Use this space to promote the business, its products or its services.
-                        </p>
+                    <div className="content">
+                        <div className="PricingBoard_div1">
+                            <img
+                                src="https://static.wixstatic.com/media/13128652dab8451db4ce3e8b1b00d5b0.png/v1/fit/w_640,h_640/V Logo.png"
+                                alt=""
+                                className="PricingBoard_img1"
+                            />
+                            <p className="PricingBoard_description PricingBoard_p1">
+                                This is a text for a feature plan
+                            </p>
+                        </div>
+                        <div className="PricingBoard_div1">
+                            <img
+                                src="https://static.wixstatic.com/media/13128652dab8451db4ce3e8b1b00d5b0.png/v1/fit/w_640,h_640/V Logo.png"
+                                alt=""
+                                className="PricingBoard_img1"
+                            />
+                            <p className="PricingBoard_description PricingBoard_p1">
+                                This is a text for a feature plan
+                            </p>
+                        </div>
+                        <div className="PricingBoard_div1">
+                            <img
+                                src="https://static.wixstatic.com/media/13128652dab8451db4ce3e8b1b00d5b0.png/v1/fit/w_640,h_640/V Logo.png"
+                                alt=""
+                                className="PricingBoard_img1"
+                            />
+                            <p className="PricingBoard_description PricingBoard_p1">
+                                This is a text for a feature plan
+                            </p>
+                        </div>
+                        <div className="PricingBoard_div1">
+                            <img
+                                src="https://static.wixstatic.com/media/13128652dab8451db4ce3e8b1b00d5b0.png/v1/fit/w_640,h_640/V Logo.png"
+                                alt=""
+                                className="PricingBoard_img1"
+                            />
+                            <p className="PricingBoard_description PricingBoard_p1">
+                                This is a text for a feature plan
+                            </p>
+                        </div>
                         <button className="exploreButton">Buy Now</button>
                     </div>
                 </div>
-                <div className="PricingBoard_teamCard">
-                    <div className="PricingBoard_imgBox">
-                        <img
-                            src="https://static.wixstatic.com/media/8586f3_f6d2538ac6374f71b6dc29511c5cd1a3~mv2.png/v1/fill/w_860,h_600/Frame%206.png"
-                            alt="Delicious Margherita Pizza"
-                            className="PricingBoard_img"
-                        />
+                <div className="priceCard premium">
+                    <div className="PricingBoard_contentBox premium">
+                        <h2 className="teamTitle PricingBoard_header1 premium">premium Plan</h2>
+                        <h1 className="PricingBoard_header2">$19/mo</h1>
+                        <p className="description">Billed monthly</p>
                     </div>
-                    <div className="PricingBoard_contentBox">
-                        <h2 className="teamTitle ">Growth</h2>
-                        <p className="PricingBoard_description">
-                            Use this space to promote the business, its products or its services.
-                        </p>
-                        <button className="PricingBoard_exploreButton">Explore</button>
+                    <div className="content premium">
+                        <div className="PricingBoard_div1">
+                            <img
+                                src="https://static.wixstatic.com/media/13128652dab8451db4ce3e8b1b00d5b0.png/v1/fit/w_640,h_640/V Logo.png"
+                                alt=""
+                                className="PricingBoard_img1"
+                            />
+                            <p className="PricingBoard_description PricingBoard_p1">
+                                This is a text for a feature plan
+                            </p>
+                        </div>
+                        <div className="PricingBoard_div1">
+                            <img
+                                src="https://static.wixstatic.com/media/13128652dab8451db4ce3e8b1b00d5b0.png/v1/fit/w_640,h_640/V Logo.png"
+                                alt=""
+                                className="PricingBoard_img1"
+                            />
+                            <p className="PricingBoard_description PricingBoard_p1">
+                                This is a text for a feature plan
+                            </p>
+                        </div>
+                        <div className="PricingBoard_div1">
+                            <img
+                                src="https://static.wixstatic.com/media/13128652dab8451db4ce3e8b1b00d5b0.png/v1/fit/w_640,h_640/V Logo.png"
+                                alt=""
+                                className="PricingBoard_img1"
+                            />
+                            <p className="PricingBoard_description PricingBoard_p1">
+                                This is a text for a feature plan
+                            </p>
+                        </div>
+                        <div className="PricingBoard_div1">
+                            <img
+                                src="https://static.wixstatic.com/media/13128652dab8451db4ce3e8b1b00d5b0.png/v1/fit/w_640,h_640/V Logo.png"
+                                alt=""
+                                className="PricingBoard_img1"
+                            />
+                            <p className="PricingBoard_description PricingBoard_p1">
+                                This is a text for a feature plan
+                            </p>
+                        </div>
+                        <button className="exploreButton">Buy Now</button>
                     </div>
                 </div>
-                <div className="PricingBoard_teamCard">
-                    <div className="PricingBoard_imgBox">
-                        <img
-                            src="https://static.wixstatic.com/media/8586f3_f6d2538ac6374f71b6dc29511c5cd1a3~mv2.png/v1/fill/w_860,h_600/Frame%206.png"
-                            alt="Delicious Margherita Pizza"
-                            className="PricingBoard_img"
-                        />
-                    </div>
+                <div className="priceCard">
                     <div className="PricingBoard_contentBox">
-                        <h2 className="teamTitle ">Item Title</h2>
-                        <p className="PricingBoard_description">
-                            Use this space to promote the business, its products or its services.
-                        </p>
-                        <button className="PricingBoard_exploreButton">Explore</button>
+                        <h2 className="teamTitle PricingBoard_header1">free Plan</h2>
+                        <h1 className="PricingBoard_header2">$19/mo</h1>
+                        <p className="description">Billed monthly</p>
+                    </div>
+                    <div className="content">
+                        <div className="PricingBoard_div1">
+                            <img
+                                src="https://static.wixstatic.com/media/13128652dab8451db4ce3e8b1b00d5b0.png/v1/fit/w_640,h_640/V Logo.png"
+                                alt=""
+                                className="PricingBoard_img1"
+                            />
+                            <p className="PricingBoard_description PricingBoard_p1">
+                                This is a text for a feature plan
+                            </p>
+                        </div>
+                        <div className="PricingBoard_div1">
+                            <img
+                                src="https://static.wixstatic.com/media/13128652dab8451db4ce3e8b1b00d5b0.png/v1/fit/w_640,h_640/V Logo.png"
+                                alt=""
+                                className="PricingBoard_img1"
+                            />
+                            <p className="PricingBoard_description PricingBoard_p1">
+                                This is a text for a feature plan
+                            </p>
+                        </div>
+                        <div className="PricingBoard_div1">
+                            <img
+                                src="https://static.wixstatic.com/media/13128652dab8451db4ce3e8b1b00d5b0.png/v1/fit/w_640,h_640/V Logo.png"
+                                alt=""
+                                className="PricingBoard_img1"
+                            />
+                            <p className="PricingBoard_description PricingBoard_p1">
+                                This is a text for a feature plan
+                            </p>
+                        </div>
+                        <div className="PricingBoard_div1">
+                            <img
+                                src="https://static.wixstatic.com/media/13128652dab8451db4ce3e8b1b00d5b0.png/v1/fit/w_640,h_640/V Logo.png"
+                                alt=""
+                                className="PricingBoard_img1"
+                            />
+                            <p className="PricingBoard_description PricingBoard_p1">
+                                This is a text for a feature plan
+                            </p>
+                        </div>
+                        <button className="exploreButton">Buy Now</button>
                     </div>
                 </div>
             </div>
         </div>
     ),
+    environmentProps: {
+        windowWidth: 1428,
+        windowHeight: 1080,
+    },
 });

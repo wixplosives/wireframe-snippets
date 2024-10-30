@@ -7,7 +7,6 @@
 .priceCard {
     display: flex;
     flex-wrap: wrap;
-    max-width: 100%;
     border-radius: 8px;
     overflow: hidden;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -19,7 +18,10 @@
     /* min-width: 300px; */
     cursor: pointer;
     transition: box-shadow 0.3s;
-    padding-top: 20px;
+    background-color: #ffffff;
+    padding: 12px;
+    min-width: 280px;
+    max-width: 308px;
 }
 .PricingBoard_imgBox {
     align-self: center;
@@ -36,9 +38,18 @@
     justify-content: center;
     gap: clamp(10px, 2vw, 4px);
     align-items: center;
+    border-bottom: 1px solid #ebebeb;
+}
+.content {
+    padding: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: clamp(10px, 2vw, 4px);
+    align-items: center;
 }
 .description {
-    font-size: 12px;
+    font-size: 14px;
     line-height: 1.5;
     text-wrap: pretty;
     @media (width <= 768px) {
@@ -48,7 +59,7 @@
         font-size: 24px;
     }
     text-align: center;
-    color: #ababab;
+    color: #969696;
 }
 .exploreButton {
     padding: 12px 24px;
@@ -65,8 +76,6 @@
 }
 .PricingBoard_teams {
     display: flex;
-    margin-top: 4vh;
-    gap: clamp(2rem, 0.2073rem + 1.4634vw, 1.25rem);
     flex-direction: row;
     @media (width <= 768px) {
         display: flex;
@@ -76,6 +85,10 @@
         display: flex;
         flex-direction: column;
     }
+    background-color: #f9f9fc;
+    padding: 30px;
+    justify-content: center;
+    column-gap: 40px;
 }
 .PricingBoard_title {
     font-family: Arial, sans-serif;
@@ -92,4 +105,30 @@
 }
 .PricingBoard_teamCard:hover {
     box-shadow: 0 6px 30px rgba(33, 33, 33, 0.2);
+}
+.PricingBoard_header1 {
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.PricingBoard_header2 {
+    font-size: 36px;
+    font-weight: 600;
+    color: #0782f2;
+}
+.PricingBoard_p1 {
+    text-align: start;
+    font-size: 14px;
+}
+.PricingBoard_img1 {
+    width: 20px;
+    height: 20px;
+}
+.PricingBoard_div1 {
+    display: flex;
+    column-gap: 6px;
+}
+.premium {
+    background-color: #2f3e4c;
+    color: #ffffff;
 }
