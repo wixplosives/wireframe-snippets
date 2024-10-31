@@ -1,4 +1,4 @@
-.heroImage {
+.hero-image {
     display: flex;
     max-width: 100%;
     height: 70%;
@@ -8,12 +8,12 @@
     font-family: Arial, sans-serif;
     flex-direction: row;
 
-@media (width <= 768px) {
+    @media (width <= 768px) {
         flex-direction: column;
     }
 }
 
-.imgBox {
+.image-box {
     width: 100%;
 }
 
@@ -23,7 +23,7 @@
     object-fit: cover;
 }
 
-.contentBox {
+.content-box {
     padding: 30px;
     display: flex;
     flex-direction: column;
@@ -47,7 +47,7 @@
     }
 }
 
-.exploreButton {
+.explore-button {
     padding: 16px 24px;
     background-color: #000000;
     border-radius: 30px;
@@ -59,13 +59,9 @@
     @media (width <= 1024px) {
         font-size: 16px;
     }
-
 }
 
-.addToCartButton:hover {
+.explore-button:hover {
     background-color: #848484;
     color: #ffffff;
 }
-
-
-
