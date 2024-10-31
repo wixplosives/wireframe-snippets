@@ -49,10 +49,10 @@ export default createBoard({
                     </div>
                 </div>
                 <div className="premium">
-                    <div className="contentBox">
+                    <div className="contentBoxPremium">
                         <h2 className="teamTitle header">Basic Plan</h2>
                         <h1 className="priceText">$19/mo</h1>
-                        <p className="description">Billed monthly</p>
+                        <p className="descriptionPremium">Billed monthly</p>
                     </div>
                     <div className="content">
                         <div className="PricingBoard_div1">
@@ -136,7 +136,7 @@ export default createBoard({
         </div>
     ),
     environmentProps: {
-        windowWidth: 1348,
+        windowWidth: 1191,
         windowHeight: 1080,
     },
 });
