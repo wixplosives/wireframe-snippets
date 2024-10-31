@@ -2,7 +2,7 @@ import './card-collection-2.board.css';
 import { createBoard } from '@wixc3/react-board';
 
 export default createBoard({
-    name: 'Team Cards 2',
+    name: 'Card Collection 2',
     Board: () => (
         <div className="card-collection">
             <div className="card">
@@ -50,7 +50,7 @@ export default createBoard({
         </div>
     ),
     environmentProps: {
-        windowWidth: 480,
-        windowHeight: 1080,
+        windowWidth: 1082,
+        windowHeight: 768,
     },
 });
