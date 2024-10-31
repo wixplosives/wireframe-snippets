@@ -10,6 +10,9 @@
     font-size: 40px;
     text-align: center;
     font-weight: 700;
+    @media (width <= 480px) {
+        font-size: 22px;
+    }
 }
 .quotesCardsContainer {
     display: grid;
@@ -31,6 +34,9 @@
     background: #fafafa;
     border: 1px solid #cecece;
     align-items: center;
+    @media (width <= 1000px) {
+        padding: 16px;
+    }
 }
 .quoteRating {
     display: flex;
@@ -50,7 +56,12 @@
     height: 88px;
     object-fit: cover;
     border-radius: 50px;
+    @media (width <= 768px) {
+        width: 56px;
+        height: 56px;
+    }
 }
+
 .quotePerson {
     display: flex;
     gap: 8px;
