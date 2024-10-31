@@ -9,7 +9,7 @@ export default createBoard({
                 <img
                     src="https://static.wixstatic.com/media/8586f3_f6d2538ac6374f71b6dc29511c5cd1a3~mv2.png/v1/fill/w_960,h_689,al_c,q_90,usm_0.66_1.00_0.01,enc_auto/Frame%206.png"
                     alt=""
-                    className="image"
+                    className="about-grid-image"
                 />
             </div>
             <div className="about-grid-title-cell">
@@ -34,7 +34,7 @@ export default createBoard({
                 <img
                     src="https://static.wixstatic.com/media/8586f3_f6d2538ac6374f71b6dc29511c5cd1a3~mv2.png/v1/fill/w_960,h_689,al_c,q_90,usm_0.66_1.00_0.01,enc_auto/Frame%206.png"
                     alt=""
-                    className="image"
+                    className="about-grid-image"
                 />
             </div>
         </div>
