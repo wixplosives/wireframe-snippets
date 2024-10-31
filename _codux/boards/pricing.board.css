@@ -1,9 +1,3 @@
-.PricingBoard_root {
-    display: flex;
-    padding: 48px;
-    flex-direction: column;
-    align-items: center;
-}
 .priceCard {
     display: flex;
     border-radius: 8px;
@@ -13,24 +7,22 @@
     flex-direction: column;
     flex-grow: 1;
     flex-shrink: 1;
-    /* flex-basis: 120px; */
-    /* min-width: 300px; */
-    cursor: pointer;
+    ]cursor: pointer;
     transition: box-shadow 0.3s;
     background-color: #ffffff;
     padding: 12px;
-    min-width: 220px;
+    min-width: 300px;
     max-width: 308px;
     transition: box-shadow 0.3s;
+
+    @media (width <= 1024px) {
+        min-width: 240px;
+    }
+    @media (width <= 768px) {
+        min-width: 300px;
+    }
 }
-.PricingBoard_imgBox {
-    align-self: center;
-}
-.PricingBoard_img {
-    width: 80px;
-    height: 80px;
-    object-fit: cover;
-}
+
 .contentBox {
     padding: 12px;
     display: flex;
@@ -76,14 +68,14 @@
     font-size: 14px;
     line-height: 1.5;
     text-wrap: pretty;
+    text-align: center;
+    color: #dfdfdf;
     @media (width <= 768px) {
         font-size: 24px;
     }
     @media (width <= 480px) {
         font-size: 24px;
     }
-    text-align: center;
-    color: #dfdfdf;
 }
 .button {
     padding: 12px 24px;
@@ -102,21 +94,24 @@
 .pricings {
     display: flex;
     flex-direction: row;
+    padding: 30px;
+    justify-content: center;
+    column-gap: 20px;
+    align-items: center;
+    @media (width <= 1024px) {
+        padding: 16px;
+    }
 
     @media (width <= 768px) {
         display: flex;
         flex-direction: column;
         gap: 20px;
+        width: 100%;
     }
     @media (width <= 480px) {
         display: flex;
         flex-direction: column;
     }
-    background-color: #f9f9fc;
-    padding: 30px;
-    justify-content: center;
-    column-gap: 20px;
-    align-items: center;
 }
 
 .PricingBoard_title {
@@ -137,7 +132,7 @@
 }
 .header {
     font-size: 20px;
-    text-transform: uppercase;
+    text-transform: capitalize;
     font-weight: 500;
 }
 .priceText {
@@ -149,13 +144,14 @@
     text-align: start;
     font-size: 14px;
 }
-.PricingBoard_img1 {
+.img {
     width: 20px;
     height: 20px;
 }
-.PricingBoard_div1 {
+.list {
     display: flex;
     column-gap: 6px;
+    align-items: center;
 }
 .premium {
     display: flex;
@@ -167,19 +163,51 @@
     flex-direction: column;
     flex-grow: 1;
     flex-shrink: 1;
-    /* flex-basis: 120px; */
-    /* min-width: 300px; */
     cursor: pointer;
     transition: box-shadow 0.3s;
     padding: 12px;
-    min-width: 230px;
+    min-width: 300px;
     max-width: 308px;
     background-color: #2f3e4c;
     color: #ffffff;
+    @media (width <= 1024px) {
+        min-width: 240px;
+    }
+    @media (width <= 768px) {
+        min-width: 300px;
+    }
 }
 .button:hover {
     background-color: #5b41c6;
 }
 .priceCard:hover {
-    box-shadow: 0 3px 38px 3px rgba(186, 186, 186, 0.3), 0 3px 12px rgba(202, 202, 202, 0.2);
+    box-shadow: 0 3px 38px rgba(0, 0, 0, 0.3);
+}
+.title {
+    font-family: Arial, sans-serif;
+    font-size: 40px;
+    text-align: center;
+    font-weight: 800;
+}
+.subtitle {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    color: #747776;
+    text-wrap: pretty;
+}
+.intro {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+}
+.root {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f9f9fc;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+.premium:hover {
+    box-shadow: 0 3px 38px rgba(0, 0, 0, 0.3);
 }
