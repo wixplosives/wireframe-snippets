@@ -5,7 +5,7 @@ export default createBoard({
     name: 'QuotesSection',
     Board: () => (
         <div className="quotesSection">
-            <h2 className="quotesSectionTitle">What our customers say</h2>
+            <h2 className="quotesSectionTitle">What our customers have to say</h2>
             <div className="quotesCardsContainer">
                 <div className="quoteCard">
                     <div className="quotePerson">
@@ -272,7 +272,7 @@ export default createBoard({
         </div>
     ),
     environmentProps: {
-        windowWidth: 1291,
+        windowWidth: 1491,
         windowHeight: 892,
     },
 });
