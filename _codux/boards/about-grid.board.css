@@ -1,9 +1,10 @@
 .about-grid {
+    font-family: Arial, sans-serif;
     display: grid;
     grid-template-rows: 1fr 1fr 1fr;
     grid-template-columns: 1fr 2fr 1fr;
     gap: 16px;
-    margin: 100px;
+    margin: 50px;
     @media (width < 768px) {
         grid-template-columns: 1fr 2fr;
         grid-template-rows: 1fr 1fr 0.5fr 1fr;
@@ -32,14 +33,10 @@
     display: flex;
     background-color: #e0e5fc;
     border-radius: 12px;
-    padding: 20px;
     justify-content: center;
     align-items: center;
     grid-column: 2 / 4;
 
-    @media (width < 768px) {
-        grid-column: 2 / 4;
-    }
     @media (width < 480px) {
         grid-column: 1 / 1;
         max-height: 100px;
@@ -47,10 +44,10 @@
 }
 
 .about-grid-title {
-    font-family: Arial, sans-serif;
     font-size: 60px;
     font-weight: 700;
     text-align: center;
+
     @media (width < 480px) {
         font-size: 20px;
     }
@@ -73,13 +70,11 @@
 }
 
 .about-grid-subtitle {
-    font-family: Arial, sans-serif;
     font-size: 24px;
     text-align: center;
 }
 
 .about-grid-content-cell {
-    display: flex;
     padding: 20px;
     background-color: #e0e5fc;
     border-radius: 12px;
@@ -97,7 +92,6 @@
 }
 
 .about-grid-content {
-    font-family: Arial, sans-serif;
     line-height: 1.6em;
 }
 
@@ -132,7 +126,7 @@
     cursor: pointer;
 }
 
-.about-grid-second-image {
+.about-grid-second-image-cell {
     grid-row: 3 / 4;
     grid-column: 1 / 4;
     @media (width < 768px) {
