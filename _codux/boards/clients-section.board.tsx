@@ -2,7 +2,7 @@ import './clients-section.board.css';
 import { createBoard } from '@wixc3/react-board';
 
 export default createBoard({
-    name: 'ClientsSection',
+    name: 'Clients Section',
     Board: () => (
         <div className="clientsSection">
             <div className="clientsContent">

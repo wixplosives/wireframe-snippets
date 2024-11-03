@@ -19,6 +19,12 @@
     }
 }
 
+.clientsContentTexts {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
 .clientsTitle {
     font-weight: 700;
     font-size: 36px;
@@ -45,12 +51,6 @@
     @media (width <= 768px) {
         width: 100%;
     }
-}
-
-.clientsContentTexts {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
 }
 
 .clientsLogosGrid {
