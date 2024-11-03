@@ -3,22 +3,17 @@
     flex-direction: column;
     align-items: center;
     background-color: #f9f9fc;
-    padding-top: 50px;
-    padding-bottom: 30px;
+    font-family: Arial, sans-serif;
 }
 
 .pricing-title {
-    font-family: Arial, sans-serif;
     font-size: 40px;
-    text-align: center;
     font-weight: 800;
 }
 
 .pricing-cards {
     display: flex;
-    flex-direction: row;
     padding: 30px;
-    justify-content: center;
     column-gap: 20px;
     align-items: center;
     @media (width <= 1024px) {
@@ -26,23 +21,15 @@
     }
 
     @media (width <= 768px) {
-        display: flex;
         flex-direction: column;
         gap: 20px;
-        width: 100%;
-    }
-    @media (width <= 480px) {
-        display: flex;
-        flex-direction: column;
     }
 }
 
 .pricing-card {
     display: flex;
     border-radius: 8px;
-    overflow: hidden;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    font-family: Arial, sans-serif;
     flex-direction: column;
     flex-grow: 1;
     flex-shrink: 1;
@@ -66,7 +53,6 @@
     padding: 12px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     gap: clamp(10px, 2vw, 4px);
     align-items: center;
     border-bottom: 1px solid #ebebeb;
@@ -74,7 +60,6 @@
 
 .pricing-header-title {
     font-size: 20px;
-    text-transform: capitalize;
     font-weight: 500;
 }
 
@@ -88,14 +73,11 @@
     font-size: 14px;
     line-height: 1.5;
     text-wrap: pretty;
+    text-align: center;
+    color: #969696;
     @media (width <= 768px) {
         font-size: 24px;
     }
-    @media (width <= 480px) {
-        font-size: 24px;
-    }
-    text-align: center;
-    color: #969696;
 }
 
 .pricing-content {
@@ -137,11 +119,8 @@
 
 .pricing-premium {
     display: flex;
-    flex-wrap: wrap;
     border-radius: 8px;
-    overflow: hidden;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    font-family: Arial, sans-serif;
     flex-direction: column;
     flex-grow: 1;
     flex-shrink: 1;
@@ -164,7 +143,6 @@
     padding: 12px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     gap: clamp(10px, 2vw, 4px);
     align-items: center;
     border-bottom: 1px solid #717171;
@@ -174,12 +152,8 @@
     font-size: 14px;
     line-height: 1.5;
     text-wrap: pretty;
-    text-align: center;
     color: #dfdfdf;
     @media (width <= 768px) {
-        font-size: 24px;
-    }
-    @media (width <= 480px) {
         font-size: 24px;
     }
 }
