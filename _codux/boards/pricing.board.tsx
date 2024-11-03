@@ -5,14 +5,7 @@ export default createBoard({
     name: 'pricing',
     Board: () => (
         <div className="root">
-            <div className="intro">
-                <h1 className="title">Pricing Plans</h1>
-                <p className="subtitle">
-                    Some pricing plans are designed for specific groups, such as individuals, small
-                    businesses, or enterprises. This segmentation helps potential customers quickly
-                    identify which plan suits them best.
-                </p>
-            </div>
+            <h1 className="title">Pricing Plans</h1>
             <div className="pricings">
                 <div className="priceCard">
                     <div className="contentBox">
@@ -58,7 +51,7 @@ export default createBoard({
                 </div>
                 <div className="premium">
                     <div className="contentBoxPremium">
-                        <h2 className="teamTitle header">Weekly Consulting</h2>
+                        <h2 className=" PricingBoard_title header">Weekly Consulting</h2>
                         <h1 className="priceText">$200</h1>
                         <p className="descriptionPremium">Valid for 12 months</p>
                     </div>
@@ -144,7 +137,7 @@ export default createBoard({
         </div>
     ),
     environmentProps: {
-        windowWidth: 1226,
-        windowHeight: 1080,
+        windowWidth: 1920,
+        windowHeight: 832,
     },
 });
