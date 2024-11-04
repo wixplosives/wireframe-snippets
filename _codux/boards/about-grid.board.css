@@ -128,6 +128,7 @@
 .about-grid-second-image-cell {
     grid-row: 3 / 4;
     grid-column: 1 / 4;
+    max-height: 160px;
     @media (width < 768px) {
         grid-row: 4 / 4;
         grid-column: 1 / 4;
@@ -136,5 +137,4 @@
         grid-row: 6;
         grid-column: 1;
     }
-    max-height: 160px;
 }
