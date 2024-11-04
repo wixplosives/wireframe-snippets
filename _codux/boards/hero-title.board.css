@@ -1,0 +1,87 @@
+.hero-title {
+    font-family: Arial, Helvetica, sans-serif;
+    min-height: 100vh;
+    padding: 6vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(292deg, #e1e2ff 0%, #ddebff 49.33%, #e3fbf9 98.67%);
+    flex-wrap: wrap;
+}
+
+.title {
+    max-width: 15em;
+    font-size: 120px;
+    min-height: 0vw;
+    font-weight: 700;
+    text-align: center;
+    @media (width <= 768px) {
+        font-size: 70px;
+    }
+    @media (width <= 480px) {
+        font-size: 40px;
+    }
+}
+
+.hero-buttons {
+    display: flex;
+    margin-top: 6vh;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    @media (width <= 768px) {
+        display: flex;
+        flex-direction: column;
+    }
+
+    @media (width <= 480px) {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+.hero-primary-button,
+.hero-secondary-button {
+    color: white;
+    border: 1px solid black;
+    border-radius: 50px;
+    font-size: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    align-self: flex-start;
+    padding-right: 36px;
+    padding-left: 36px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+
+    @media (width <= 768px) {
+        font-size: 26px;
+        padding-right: 36px;
+        padding-left: 36px;
+        padding-top: 24px;
+        padding-bottom: 24px;
+    }
+    @media (width <= 480px) {
+        font-size: 20px;
+        padding: 16px 24px 12px;
+    }
+}
+
+.hero-primary-button {
+    color: #fff;
+    background: #000;
+    &:hover {
+        color: #000;
+        background: transparent;
+    }
+}
+
+.hero-secondary-button {
+    color: #000;
+    background: transparent;
+    &:hover {
+        color: #fff;
+        background: #000;
+    }
+}
