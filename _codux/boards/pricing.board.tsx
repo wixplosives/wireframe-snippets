@@ -17,7 +17,7 @@ export default createBoard({
                         <div className="pricing-feature">
                             <img
                                 src="https://static.wixstatic.com/media/13128652dab8451db4ce3e8b1b00d5b0.png/v1/fit/w_640,h_640/V Logo.png"
-                                alt=""
+                                alt="V Logo on Dark Background"
                                 className="pricing-img"
                             />
                             <p className="pricing-feature">Describe the above</p>
@@ -25,7 +25,7 @@ export default createBoard({
                         <div className="pricing-feature">
                             <img
                                 src="https://static.wixstatic.com/media/13128652dab8451db4ce3e8b1b00d5b0.png/v1/fit/w_640,h_640/V Logo.png"
-                                alt=""
+                                alt="V Logo on Dark Background"
                                 className="pricing-img"
                             />
                             <p className="pricing-feature">Describe the above</p>
@@ -33,7 +33,7 @@ export default createBoard({
                         <div className="pricing-feature">
                             <img
                                 src="https://static.wixstatic.com/media/13128652dab8451db4ce3e8b1b00d5b0.png/v1/fit/w_640,h_640/V Logo.png"
-                                alt=""
+                                alt="V Logo on Dark Background"
                                 className="pricing-img"
                             />
                             <p className="pricing-feature">Describe the above</p>
@@ -41,7 +41,7 @@ export default createBoard({
                         <div className="pricing-feature">
                             <img
                                 src="https://static.wixstatic.com/media/13128652dab8451db4ce3e8b1b00d5b0.png/v1/fit/w_640,h_640/V Logo.png"
-                                alt=""
+                                alt="V Logo on Dark Background"
                                 className="pricing-img"
                             />
                             <p className="pricing-feature">Describe the above</p>
@@ -59,7 +59,7 @@ export default createBoard({
                         <div className="pricing-feature">
                             <img
                                 src="https://static.wixstatic.com/media/13128652dab8451db4ce3e8b1b00d5b0.png/v1/fit/w_640,h_640/V Logo.png"
-                                alt=""
+                                alt="V Logo on Dark Background"
                                 className="pricing-img"
                             />
                             <p className="pricing-feature">Describe the above</p>
@@ -67,7 +67,7 @@ export default createBoard({
                         <div className="pricing-feature">
                             <img
                                 src="https://static.wixstatic.com/media/13128652dab8451db4ce3e8b1b00d5b0.png/v1/fit/w_640,h_640/V Logo.png"
-                                alt=""
+                                alt="V Logo on Dark Background"
                                 className="pricing-img"
                             />
                             <p className="pricing-feature">Describe the above</p>
@@ -75,7 +75,7 @@ export default createBoard({
                         <div className="pricing-feature">
                             <img
                                 src="https://static.wixstatic.com/media/13128652dab8451db4ce3e8b1b00d5b0.png/v1/fit/w_640,h_640/V Logo.png"
-                                alt=""
+                                alt="V Logo on Dark Background"
                                 className="pricing-img"
                             />
                             <p className="pricing-feature">Describe the above</p>
@@ -83,7 +83,7 @@ export default createBoard({
                         <div className="pricing-feature">
                             <img
                                 src="https://static.wixstatic.com/media/13128652dab8451db4ce3e8b1b00d5b0.png/v1/fit/w_640,h_640/V Logo.png"
-                                alt=""
+                                alt="V Logo on Dark Background"
                                 className="pricing-img"
                             />
                             <p className="pricing-feature">Describe the above</p>
@@ -101,7 +101,7 @@ export default createBoard({
                         <div className="pricing-feature">
                             <img
                                 src="https://static.wixstatic.com/media/13128652dab8451db4ce3e8b1b00d5b0.png/v1/fit/w_640,h_640/V Logo.png"
-                                alt=""
+                                alt="V Logo on Dark Background"
                                 className="pricing-img"
                             />
                             <p className="pricing-feature">Describe the above</p>
@@ -109,7 +109,7 @@ export default createBoard({
                         <div className="pricing-feature">
                             <img
                                 src="https://static.wixstatic.com/media/13128652dab8451db4ce3e8b1b00d5b0.png/v1/fit/w_640,h_640/V Logo.png"
-                                alt=""
+                                alt="V Logo on Dark Background"
                                 className="pricing-img"
                             />
                             <p className="pricing-feature">Describe the above</p>
@@ -117,7 +117,7 @@ export default createBoard({
                         <div className="pricing-feature">
                             <img
                                 src="https://static.wixstatic.com/media/13128652dab8451db4ce3e8b1b00d5b0.png/v1/fit/w_640,h_640/V Logo.png"
-                                alt=""
+                                alt="V Logo on Dark Background"
                                 className="pricing-img"
                             />
                             <p className="pricing-feature">Describe the above</p>
@@ -125,7 +125,7 @@ export default createBoard({
                         <div className="pricing-feature">
                             <img
                                 src="https://static.wixstatic.com/media/13128652dab8451db4ce3e8b1b00d5b0.png/v1/fit/w_640,h_640/V Logo.png"
-                                alt=""
+                                alt="V Logo on Dark Background"
                                 className="pricing-img"
                             />
                             <p className="pricing-feature">Describe the above</p>
@@ -137,7 +137,7 @@ export default createBoard({
         </div>
     ),
     environmentProps: {
-        windowWidth: 424,
+        windowWidth: 874,
         windowHeight: 832,
     },
 });
