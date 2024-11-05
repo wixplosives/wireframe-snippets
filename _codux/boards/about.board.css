@@ -17,11 +17,6 @@
     }
 }
 
-.aboutImageCell {
-    background-color: #e0e5fc;
-    border-radius: 12px;
-}
-
 .aboutImage {
     object-fit: cover;
     width: 100%;
