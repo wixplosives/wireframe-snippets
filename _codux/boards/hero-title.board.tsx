@@ -4,13 +4,13 @@ import { createBoard } from '@wixc3/react-board';
 export default createBoard({
     name: 'Hero Title',
     Board: () => (
-        <div className="hero-title">
-            <h1 className="title">Title Goes Here. Click to Edit and Add Your Own Text.</h1>
-            <div className="hero-buttons">
-                <a href="#a" className="hero-secondary-button">
+        <div className="heroTitle">
+            <h1 className="heroTitleTitle">Title Goes Here. Click to Edit and Add Your Own Text.</h1>
+            <div className="heroTitleButtonsContainer">
+                <a href="#a" className="heroTitleSecondaryButton">
                     Contact Us
                 </a>
-                <a href="#a" className="hero-primary-button">
+                <a href="#a" className="heroTitlePrimaryButton">
                     Learn More
                 </a>
             </div>
