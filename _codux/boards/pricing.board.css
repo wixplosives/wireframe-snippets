@@ -6,12 +6,12 @@
     font-family: Arial, sans-serif;
 }
 
-.pricing-title {
+.pricingTitle {
     font-size: 40px;
     font-weight: 800;
 }
 
-.pricing-cards {
+.pricingCards {
     display: flex;
     padding: 30px;
     column-gap: 20px;
@@ -26,7 +26,7 @@
     }
 }
 
-.pricing-card {
+.pricingCard {
     display: flex;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -41,15 +41,15 @@
     max-width: 308px;
     transition: box-shadow 0.3s;
 
-    @media (width <= 1024px) {
+    @media (width < 1024px) {
         min-width: 240px;
     }
-    @media (width <= 768px) {
+    @media (width < 768px) {
         min-width: 300px;
     }
 }
 
-.pricing-header {
+.pricingHeader {
     padding: 12px;
     display: flex;
     flex-direction: column;
@@ -58,18 +58,18 @@
     border-bottom: 1px solid #ebebeb;
 }
 
-.pricing-header-title {
+.pricingHeaderTitle {
     font-size: 20px;
     font-weight: 500;
 }
 
-.pricing-header-text {
+.pricingHeaderText {
     font-size: 36px;
     font-weight: 600;
     color: #957bff;
 }
 
-.pricing-header-description {
+.pricingHeaderDescription {
     font-size: 14px;
     line-height: 1.5;
     text-wrap: pretty;
@@ -80,7 +80,7 @@
     }
 }
 
-.pricing-content {
+.pricingContent {
     padding: 12px;
     display: flex;
     flex-direction: column;
@@ -90,19 +90,19 @@
     margin-top: 5px;
 }
 
-.pricing-feature {
+.pricingFeature {
     display: flex;
     column-gap: 6px;
     align-items: center;
     font-size: 14px;
 }
 
-.pricing-img {
+.pricingImage {
     width: 20px;
     height: 20px;
 }
 
-.pricing-button {
+.pricingButton {
     padding: 12px 24px;
     background-color: #7d5dff;
     border-radius: 30px;
@@ -117,7 +117,7 @@
     margin-top: 10px;
 }
 
-.pricing-premium {
+.pricingPremium {
     display: flex;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -139,7 +139,7 @@
     }
 }
 
-.pricing-premium-header {
+.pricingPremiumHeader {
     padding: 12px;
     display: flex;
     flex-direction: column;
@@ -148,7 +148,7 @@
     border-bottom: 1px solid #717171;
 }
 
-.pricing-premium-description {
+.pricingPremiumDescription {
     font-size: 14px;
     line-height: 1.5;
     text-wrap: pretty;
@@ -158,14 +158,14 @@
     }
 }
 
-.pricing-button:hover {
+.pricingButton:hover {
     background-color: #5b41c6;
 }
 
-.pricing-card:hover {
+.pricingCard:hover {
     box-shadow: 0 3px 38px rgba(0, 0, 0, 0.3);
 }
 
-.pricing-premium:hover {
+.pricingPremium:hover {
     box-shadow: 0 3px 38px rgba(0, 0, 0, 0.3);
 }
