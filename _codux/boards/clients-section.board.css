@@ -1,13 +1,14 @@
 .clientsSection {
     padding: 80px;
     font-family: Arial, sans-serif;
+
     row-gap: 60px;
     display: flex;
     flex-direction: column;
     background-color: #ffffff;
 }
 
-.clientsContent {
+.clientsSectionContent {
     display: flex;
 
     @media (width <= 768px) {
@@ -16,13 +17,13 @@
     }
 }
 
-.clientsContentTexts {
+.clientsSectionContentTexts {
     display: flex;
     flex-direction: column;
     gap: 20px;
 }
 
-.clientsTitle {
+.clientsSectionTitle {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.3;
@@ -32,7 +33,7 @@
     }
 }
 
-.clientsDescription {
+.clientsSectionDescription {
     font-size: 16px;
     line-height: 1.6em;
     width: 85%;
@@ -41,6 +42,7 @@
         width: 100%;
     }
 }
+
 .clientsSectionImage {
     width: 50%;
     height: min-content;
@@ -50,24 +52,24 @@
     }
 }
 
-.clientsLogosGrid {
+.clientsSectionLogosGrid {
     gap: 24px;
     display: flex;
 
-    @media (width <= 1024px) {
+    @media (width < 1024px) {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
     }
 
-    @media (width <= 768px) {
+    @media (width < 768px) {
         grid-template-columns: repeat(2, 1fr);
     }
-    @media (width <= 420px) {
+    @media (width < 480px) {
         grid-template-columns: repeat(1, 1fr);
     }
 }
 
-.clientLogoContainer {
+.clientsSectionLogoContainer {
     box-shadow: 0 1px 20px rgba(0, 0, 0, 0.08);
     border-radius: 12px;
     padding: 32px 24px;
@@ -76,7 +78,7 @@
     width: 100%;
 }
 
-.clientLogo {
+.clientsSectionLogo {
     min-width: 50px;
     max-width: 110px;
     opacity: 0.5;

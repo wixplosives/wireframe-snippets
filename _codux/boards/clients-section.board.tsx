@@ -5,10 +5,10 @@ export default createBoard({
     name: 'Clients Section',
     Board: () => (
         <div className="clientsSection">
-            <div className="clientsContent">
-                <div className="clientsContentTexts">
-                    <h2 className="clientsTitle">Our Clients</h2>
-                    <p className="clientsDescription">
+            <div className="clientsSectionContent">
+                <div className="clientsSectionContentTexts">
+                    <h2 className="clientsSectionTitle">Our Clients</h2>
+                    <p className="clientsSectionDescription">
                         Showcase current and previous clients and their success stories. Use this
                         space to share information about your partnership and add examples of shared
                         projects and how they made an impact.
@@ -20,54 +20,54 @@ export default createBoard({
                     className="clientsSectionImage"
                 />
             </div>
-            <div className="clientsLogosGrid">
-                <div className="clientLogoContainer">
+            <div className="clientsSectionLogosGrid">
+                <div className="clientsSectionLogoContainer">
                     <img
                         src="https://static.wixstatic.com/shapes/27eba2_5c720747d7354dba80018d7d997449dc.svg"
                         alt=""
-                        className="clientLogo"
+                        className="clientsSectionLogo"
                     />
                 </div>
-                <div className="clientLogoContainer">
+                <div className="clientsSectionLogoContainer">
                     <img
                         src="https://static.wixstatic.com/shapes/27eba2_2166ae7dd24f43b5b5d81b82723fb514.svg"
                         alt=""
-                        className="clientLogo"
+                        className="clientsSectionLogo"
                     />
                 </div>
-                <div className="clientLogoContainer">
+                <div className="clientsSectionLogoContainer">
                     <img
                         src="https://static.wixstatic.com/shapes/27eba2_8578952f0104450ab6439b62e80a4e94.svg"
                         alt=""
-                        className="clientLogo"
+                        className="clientsSectionLogo"
                     />
                 </div>
-                <div className="clientLogoContainer">
+                <div className="clientsSectionLogoContainer">
                     <img
                         src="https://static.wixstatic.com/shapes/27eba2_b38de69a8fef47a4a7b4352eb614e56c.svg"
                         alt=""
-                        className="clientLogo"
+                        className="clientsSectionLogo"
                     />
                 </div>
-                <div className="clientLogoContainer">
+                <div className="clientsSectionLogoContainer">
                     <img
                         src="https://static.wixstatic.com/shapes/27eba2_6f586dc3ae5c401f94331b8f43d80207.svg"
                         alt=""
-                        className="clientLogo"
+                        className="clientsSectionLogo"
                     />
                 </div>
-                <div className="clientLogoContainer">
+                <div className="clientsSectionLogoContainer">
                     <img
                         src="https://static.wixstatic.com/shapes/27eba2_933967ebc7324eb1937d9d86b71dc875.svg"
                         alt=""
-                        className="clientLogo"
+                        className="clientsSectionLogo"
                     />
                 </div>
             </div>
         </div>
     ),
     environmentProps: {
-        windowWidth: 936,
-        windowHeight: 892,
+        windowWidth: 1564,
+        windowHeight: 1080,
     },
 });
