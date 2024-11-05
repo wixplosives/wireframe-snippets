@@ -31,7 +31,6 @@
     justify-content: center;
     gap: 30px;
     @media (width < 768px) {
-        display: flex;
         flex-direction: column;
     }
 }
