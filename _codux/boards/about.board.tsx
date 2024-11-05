@@ -11,13 +11,13 @@ export default createBoard({
                 className="aboutImage"
             />
             <div className="aboutTitleCell">
-                <h1 className="aboutTitle">Write a Title Here</h1>
+                <h1 className="aboutTitleText">Write a Title Here</h1>
             </div>
             <div className="aboutSubtitleCell">
-                <h5 className="aboutSubtitle">Subtitle Goes Here</h5>
+                <h5 className="aboutSubtitleText">Subtitle Goes Here</h5>
             </div>
             <div className="aboutContentCell">
-                <p className="aboutContent">
+                <p className="aboutContentText">
                     This is a paragraph where you can include any information you’d like. It’s an
                     opportunity to tell a story about the company, describe a special service it
                     offers, or highlight a particular feature that sets it apart from competitors.
@@ -38,7 +38,7 @@ export default createBoard({
         </div>
     ),
     environmentProps: {
-        windowWidth: 425.3333333333333,
-        windowHeight: 747,
+        windowWidth: 1024,
+        windowHeight: 768,
     },
 });

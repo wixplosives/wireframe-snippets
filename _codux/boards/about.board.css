@@ -38,7 +38,7 @@
     }
 }
 
-.aboutTitle {
+.aboutTitleText {
     font-size: 60px;
     font-weight: 700;
     text-align: center;
@@ -64,7 +64,7 @@
     }
 }
 
-.aboutSubtitle {
+.aboutSubtitleText {
     font-size: 24px;
     text-align: center;
 }
@@ -74,7 +74,7 @@
     background-color: #e0e5fc;
     border-radius: 12px;
     justify-content: center;
-    align-items: center;
+    align-content: center;
 
     @media (width < 768px) {
         grid-column: 2 / 4;
@@ -86,7 +86,7 @@
     }
 }
 
-.aboutContent {
+.aboutContentText {
     line-height: 1.6em;
 }
 
