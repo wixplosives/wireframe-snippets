@@ -8,7 +8,7 @@
     background-color: #ffffff;
 }
 
-.clientsContent {
+.clientsHeader {
     display: flex;
 
     @media (width <= 768px) {

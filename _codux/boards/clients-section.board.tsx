@@ -5,7 +5,7 @@ export default createBoard({
     name: 'Clients',
     Board: () => (
         <div className="clients">
-            <div className="clientsContent">
+            <div className="clientsHeader">
                 <div className="clientsContentTexts">
                     <h2 className="clientsTitle">Our Clients</h2>
                     <p className="clientsDescription">
