@@ -1,4 +1,4 @@
-.about-grid {
+.about {
     font-family: Arial, sans-serif;
     display: grid;
     grid-template-rows: 1fr 1fr 1fr;
@@ -17,19 +17,19 @@
     }
 }
 
-.about-grid-image-cell {
+.aboutImageCell {
     background-color: #e0e5fc;
     border-radius: 12px;
 }
 
-.about-grid-image {
+.aboutImage {
     object-fit: cover;
     width: 100%;
     border-radius: 12px;
     height: 100%;
 }
 
-.about-grid-title-cell {
+.aboutTitleCell {
     display: flex;
     background-color: #e0e5fc;
     border-radius: 12px;
@@ -43,7 +43,7 @@
     }
 }
 
-.about-grid-title {
+.aboutTitle {
     font-size: 60px;
     font-weight: 700;
     text-align: center;
@@ -53,7 +53,7 @@
     }
 }
 
-.about-grid-subtitle-cell {
+.aboutSubtitleCell {
     display: flex;
     padding: 20px;
     background-color: #e0e5fc;
@@ -69,12 +69,12 @@
     }
 }
 
-.about-grid-subtitle {
+.aboutSubtitle {
     font-size: 24px;
     text-align: center;
 }
 
-.about-grid-content-cell {
+.aboutContentCell {
     padding: 20px;
     background-color: #e0e5fc;
     border-radius: 12px;
@@ -91,11 +91,11 @@
     }
 }
 
-.about-grid-content {
+.aboutContent {
     line-height: 1.6em;
 }
 
-.about-grid-button-cell {
+.aboutButtonCell {
     display: flex;
     padding: 20px;
     background-color: #e0e5fc;
@@ -113,19 +113,19 @@
     }
 }
 
-.about-grid-button {
+.aboutButton {
     padding: 17px 26px;
     border: 1px solid black;
     border-radius: 30px;
 }
 
-.about-grid-button:hover {
+.aboutButton:hover {
     background-color: #000000;
     color: #ffffff;
     cursor: pointer;
 }
 
-.about-grid-second-image-cell {
+.aboutSecondImageCell {
     grid-row: 3 / 4;
     grid-column: 1 / 4;
     max-height: 160px;
