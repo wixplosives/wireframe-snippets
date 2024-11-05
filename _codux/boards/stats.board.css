@@ -14,7 +14,7 @@
     }
 }
 
-.allStatsContainer {
+.statsAllStatsContainer {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 40px 24px;
@@ -32,11 +32,11 @@
     gap: 2px;
 }
 
-.statNumber {
+.statsNumber {
     font-size: 42px;
 }
 
-.statTitle {
+.statsTitle {
     font-size: 16px;
     line-height: 1.6em;
     padding-bottom: 16px;
@@ -44,7 +44,7 @@
     padding-top: 8px;
 }
 
-.statDescription {
+.statsDescription {
     font-size: 14px;
     line-height: 1.6;
     padding-top: 16px;
