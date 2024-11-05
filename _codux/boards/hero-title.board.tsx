@@ -5,7 +5,9 @@ export default createBoard({
     name: 'Hero Title',
     Board: () => (
         <div className="heroTitle">
-            <h1 className="heroTitleTitle">Title Goes Here. Click to Edit and Add Your Own Text.</h1>
+            <h1 className="heroTitleTitle">
+                Title Goes Here. Click to Edit and Add Your Own Text.
+            </h1>
             <div className="heroTitleButtonsContainer">
                 <a href="#a" className="heroTitleSecondaryButton">
                     Contact Us
@@ -17,7 +19,7 @@ export default createBoard({
         </div>
     ),
     environmentProps: {
-        windowWidth: 1479,
-        windowHeight: 683,
+        windowWidth: 1920,
+        windowHeight: 1080,
     },
 });
