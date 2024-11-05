@@ -1,6 +1,6 @@
-.hero-image {
+.heroImage {
     display: flex;
-    max-width: 100%;
+
     height: 70%;
     border-radius: 8px;
     overflow: hidden;
@@ -13,17 +13,17 @@
     }
 }
 
-.image-box {
+.heroImageImageBox {
     width: 100%;
 }
 
-.img {
+.heroImageImg {
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
 
-.content-box {
+.heroImageContentBox {
     padding: 30px;
     display: flex;
     flex-direction: column;
@@ -31,14 +31,14 @@
     gap: 20px;
 }
 
-.title {
+.heroImageTitle {
     font-size: 70px;
     @media (width <= 1024px) {
         font-size: 50px;
     }
 }
 
-.description {
+.heroImageDescription {
     font-size: 24px;
     line-height: 1.5;
     text-wrap: pretty;
@@ -47,7 +47,7 @@
     }
 }
 
-.explore-button {
+.heroImageExploreButton {
     padding: 16px 24px;
     background-color: #000000;
     border-radius: 30px;
@@ -61,7 +61,7 @@
     }
 }
 
-.explore-button:hover {
+.heroImageExploreButton:hover {
     background-color: #848484;
     color: #ffffff;
 }
