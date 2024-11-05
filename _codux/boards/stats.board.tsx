@@ -7,22 +7,22 @@ export default createBoard({
         <div className="stats">
             <h2 className="statsHeader">Our Story in Numbers</h2>
             <div className="statsAllStatsContainer">
-                <div className="statsContainer">
+                <div>
                     <h4 className="statsNumber">30K</h4>
                     <h4 className="statsTitle">Item Title</h4>
                     <p className="statsDescription">Use this space to explain the above number.</p>
                 </div>
-                <div className="statsContainer">
+                <div>
                     <h4 className="statsNumber">+27%</h4>
                     <h4 className="statsTitle">Item Title</h4>
                     <p className="statsDescription">Use this space to explain the above number.</p>
                 </div>
-                <div className="statsContainer">
+                <div>
                     <h4 className="statsNumber">15M</h4>
                     <h4 className="statsTitle">Item Title</h4>
                     <p className="statsDescription">Use this space to explain the above number.</p>
                 </div>
-                <div className="statsContainer">
+                <div>
                     <h4 className="statsNumber">890</h4>
                     <h4 className="statsTitle">Item Title</h4>
                     <p className="statsDescription">Use this space to explain the above number.</p>
@@ -31,7 +31,7 @@ export default createBoard({
         </div>
     ),
     environmentProps: {
-        windowWidth: 980,
-        windowHeight: 1180,
+        windowWidth: 1024,
+        windowHeight: 768,
     },
 });
