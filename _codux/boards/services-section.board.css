@@ -1,76 +1,75 @@
 .servicesSection {
-  display: flex;
-  padding: 76px;
-  background-image: linear-gradient(90deg, #e1e2ff 0%, #e3fbf9 100%);
-  gap: 60px;
+    display: flex;
+    padding: 76px;
+    background-image: linear-gradient(90deg, #e1e2ff 0%, #e3fbf9 100%);
+    gap: 60px;
 
-  @media (width <= 1024px) {
-      flex-direction: column;
-  }
+    @media (width <= 1024px) {
+        flex-direction: column;
+    }
 }
 
 .servicesTitle {
-  font-size: 47px;
-  line-height: 1.3em;
-  font-weight: 700;
-  padding-bottom: 16px;
+    font-size: 47px;
+    line-height: 1.3em;
+    font-weight: 700;
+    padding-bottom: 16px;
 }
 
 .servicesDescription {
-  font-size: 16px;
-  line-height: 1.6em;
-  padding-bottom: 28px;
-  width: 50%;
+    font-size: 16px;
+    line-height: 1.6em;
+    padding-bottom: 28px;
 }
 
 .servicesContent {
-  min-width: 275px;
+    min-width: 275px;
 }
 
 .servicesCards {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
 
-  @media (width <= 768px) {
-      grid-template-columns: 1fr;
-  }
+    @media (width <= 768px) {
+        grid-template-columns: 1fr;
+    }
 }
 
 .servicesCard {
-  padding: 24px;
-  background-color: #ffffff;
-  border-radius: 16px;
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.08);
-  min-width: 265px;
+    padding: 24px;
+    background-color: #ffffff;
+    border-radius: 16px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.08);
+    min-width: 265px;
 }
 
 .servicesCardTitle {
-  font-size: 20px;
-  line-height: 1.5em;
-  font-weight: 700;
-  padding-bottom: 8px;
+    font-size: 20px;
+    line-height: 1.5em;
+    font-weight: 700;
+    padding-bottom: 8px;
 }
 
 .servicesCardDescription {
 }
 
 .servicesCardIcon {
-  display: block;
-  width: 32px;
-  height: 32px;
-  margin: 0 0 24px auto;
+    display: block;
+    width: 32px;
+    height: 32px;
+    margin: 0 0 24px auto;
 }
 
 .servicesButton {
-  display: inline-flex;
-  padding: 10px 30px;
-  border: 1px solid #000000;
-  border-radius: 50px;
-  cursor: pointer;
-  &:hover {
-      background-color: #000000;
-      border-color: #729991;
-      color: #ffffff;
-  }
+    display: inline-flex;
+    padding: 10px 30px;
+    border: 1px solid #000000;
+    border-radius: 50px;
+    cursor: pointer;
+    &:hover {
+        background-color: #000000;
+        border-color: #729991;
+        color: #ffffff;
+    }
 }
