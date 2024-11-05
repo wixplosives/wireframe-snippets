@@ -15,7 +15,7 @@ export default createBoard({
                     </p>
                 </div>
                 <img
-                    src="https://static.wixstatic.com/media/baac51_85ea66dc04284f40910abb8e1b90a2ba~mv2.jpg/v1/fill/w_1680,h_954,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/baac51_85ea66dc04284f40910abb8e1b90a2ba~mv2.jpg"
+                    src="https://static.wixstatic.com/media/8586f3_c98b193548784753bb357eeb03615da5~mv2.jpg/v1/fill/w_1680,h_954/Image%20by%20Johannes%20Plenio.jpg"
                     alt=""
                     className="clientsImage"
                 />
@@ -25,49 +25,49 @@ export default createBoard({
                     <img
                         src="https://static.wixstatic.com/shapes/27eba2_5c720747d7354dba80018d7d997449dc.svg"
                         alt=""
-                        className="clientsLogo"
+                        className="clientsLogoImage"
                     />
                 </div>
                 <div className="clientsLogoContainer">
                     <img
                         src="https://static.wixstatic.com/shapes/27eba2_2166ae7dd24f43b5b5d81b82723fb514.svg"
                         alt=""
-                        className="clientsLogo"
+                        className="clientsLogoImage"
                     />
                 </div>
                 <div className="clientsLogoContainer">
                     <img
                         src="https://static.wixstatic.com/shapes/27eba2_8578952f0104450ab6439b62e80a4e94.svg"
                         alt=""
-                        className="clientsLogo"
+                        className="clientsLogoImage"
                     />
                 </div>
                 <div className="clientsLogoContainer">
                     <img
                         src="https://static.wixstatic.com/shapes/27eba2_b38de69a8fef47a4a7b4352eb614e56c.svg"
                         alt=""
-                        className="clientsLogo"
+                        className="clientsLogoImage"
                     />
                 </div>
                 <div className="clientsLogoContainer">
                     <img
                         src="https://static.wixstatic.com/shapes/27eba2_6f586dc3ae5c401f94331b8f43d80207.svg"
                         alt=""
-                        className="clientsLogo"
+                        className="clientsLogoImage"
                     />
                 </div>
                 <div className="clientsLogoContainer">
                     <img
                         src="https://static.wixstatic.com/shapes/27eba2_933967ebc7324eb1937d9d86b71dc875.svg"
                         alt=""
-                        className="clientsLogo"
+                        className="clientsLogoImage"
                     />
                 </div>
             </div>
         </div>
     ),
     environmentProps: {
-        windowWidth: 836,
+        windowWidth: 1176,
         windowHeight: 1080,
     },
 });
