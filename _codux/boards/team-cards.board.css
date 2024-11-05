@@ -19,25 +19,21 @@
     }
 }
 
-.card {
+.teamCardsCard {
     outline: 1px solid rgba(255, 255, 255, 0.5);
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
     position: relative;
     overflow: hidden;
 }
 
-.card-image {
+.teamCardsCardImage {
     object-fit: cover;
     transition: transform 0.75s;
     height: 100%;
     width: 100%;
 }
 
-.card:hover .card-image {
-    transform: scale(1.15);
-}
-
-.card-content {
+.teamCardsCardContent {
     position: absolute;
     left: 20px;
     bottom: 60px;
@@ -56,7 +52,7 @@
     }
 }
 
-.card-title {
+.teamCardsCardTitle {
     color: black;
     font-size: 36px;
     text-shadow: 0 0 1px rgba(0, 0, 0, 0.5);
@@ -73,7 +69,7 @@
     }
 }
 
-.card-subtitle {
+.teamCardsCardSubtitle {
     color: black;
     font-size: 18px;
     line-height: 1.6;
