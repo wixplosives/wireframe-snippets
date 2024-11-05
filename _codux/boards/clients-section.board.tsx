@@ -20,7 +20,7 @@ export default createBoard({
                     className="clientsImage"
                 />
             </div>
-            <div className="clientsLogosGrid">
+            <div className="clientsLogos">
                 <div className="clientsLogoContainer">
                     <img
                         src="https://static.wixstatic.com/shapes/27eba2_5c720747d7354dba80018d7d997449dc.svg"
