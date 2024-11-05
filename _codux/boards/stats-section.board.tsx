@@ -2,10 +2,10 @@ import './stats-section.board.css';
 import { createBoard } from '@wixc3/react-board';
 
 export default createBoard({
-    name: 'StatsSection',
+    name: 'Stats',
     Board: () => (
-        <div className="statsSection">
-            <h2 className="statsTitle">Our Story in Numbers</h2>
+        <div className="stats">
+            <h2 className="statsHeader">Our Story in Numbers</h2>
             <div className="allStatsContainer">
                 <div className="statsContainer">
                     <h4 className="statNumber">30K</h4>
@@ -31,7 +31,7 @@ export default createBoard({
         </div>
     ),
     environmentProps: {
-        windowWidth: 1235,
-        windowHeight: 677,
+        windowWidth: 1232,
+        windowHeight: 1180,
     },
 });
