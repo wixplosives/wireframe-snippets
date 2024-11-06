@@ -34,7 +34,7 @@
     width: 300px;
 }
 
-.pricingHeader {
+.pricingPlanOverview {
     padding: 12px;
     display: flex;
     flex-direction: column;
@@ -65,7 +65,7 @@
     }
 }
 
-.pricingContent {
+.pricingPlanFeatures {
     gap: 12px;
     align-items: center;
     margin-top: 12px;
@@ -115,7 +115,7 @@
     }
 }
 
-.pricingPremiumHeader {
+.pricingPremiumPlanOverview {
     padding: 12px;
     display: flex;
     flex-direction: column;
