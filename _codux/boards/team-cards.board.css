@@ -1,10 +1,6 @@
 .teamCards {
     display: flex;
-    flex-direction: row;
-    justify-content: center;
-    font-family: Arial, sans-serif;
     min-height: 800px;
-    max-height: 700px;
 
     @media (width < 1024px) {
         min-height: 500px;
@@ -13,8 +9,8 @@
         min-height: 400px;
     }
     @media (width < 480px) {
-        flex-direction: column;
         min-height: 300px;
+        flex-direction: column;
     }
 }
 

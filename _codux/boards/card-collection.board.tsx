@@ -10,7 +10,7 @@ export default createBoard({
                 <br /> Click to Edit and Add Your Own Text.
             </h1>
             <div className="cardCollectionItems">
-                <div className="cardCollectionCard">
+                <div className="cardCollectionItem">
                     <img
                         src="https://static.wixstatic.com/media/8586f3_f6d2538ac6374f71b6dc29511c5cd1a3~mv2.png/v1/fill/w_860,h_600/Frame%206.png"
                         alt="Add a description of the image"
@@ -24,7 +24,7 @@ export default createBoard({
                         <button className="cardCollectionButton">Explore</button>
                     </div>
                 </div>
-                <div className="cardCollectionCard">
+                <div className="cardCollectionItem">
                     <img
                         src="https://static.wixstatic.com/media/8586f3_f6d2538ac6374f71b6dc29511c5cd1a3~mv2.png/v1/fill/w_860,h_600/Frame%206.png"
                         alt="Add a description of the image"
@@ -38,7 +38,7 @@ export default createBoard({
                         <button className="cardCollectionButton">Explore</button>
                     </div>
                 </div>
-                <div className="cardCollectionCard">
+                <div className="cardCollectionItem">
                     <img
                         src="https://static.wixstatic.com/media/8586f3_f6d2538ac6374f71b6dc29511c5cd1a3~mv2.png/v1/fill/w_860,h_600/Frame%206.png"
                         alt="Add a description of the image"
@@ -56,7 +56,7 @@ export default createBoard({
         </div>
     ),
     environmentProps: {
-        windowWidth: 746,
-        windowHeight: 1644,
+        windowWidth: 562,
+        windowHeight: 1354.857142857143,
     },
 });
