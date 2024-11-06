@@ -5,7 +5,7 @@ export default createBoard({
     name: 'Hero Title',
     Board: () => (
         <div className="heroTitle">
-            <h1 className="heroTitleTitle">
+            <h1 className="heroTitle__Title">
                 Title Goes Here. Click to Edit and Add Your Own Text.
             </h1>
             <div className="heroTitleButtonsContainer">
