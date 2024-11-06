@@ -10,18 +10,17 @@
 
 .pricingCards {
     display: flex;
-    padding: 30px;
-    column-gap: 20px;
+    padding: 32px;
+    gap: 20px;
     justify-content: center;
     align-items: center;
 
-    @media (width <= 1024px) {
+    @media (width < 1024px) {
         padding: 16px;
     }
 
-    @media (width <= 768px) {
+    @media (width < 768px) {
         flex-direction: column;
-        gap: 20px;
     }
 }
 
@@ -31,7 +30,7 @@
     cursor: pointer;
     transition: box-shadow 0.3s;
     background-color: white;
-    padding: 12px;
+    padding: 16px;
     width: 300px;
 }
 
@@ -49,7 +48,7 @@
     font-weight: 500;
 }
 
-.pricingHeaderText {
+.pricingHeaderCost {
     font-size: 36px;
     font-weight: 600;
     color: #957bff;
@@ -69,15 +68,16 @@
 .pricingContent {
     gap: 12px;
     align-items: center;
-    margin-top: 5px;
+    margin-top: 12px;
+    display: flex;
+    flex-direction: column;
 }
 
 .pricingFeature {
     display: flex;
+    font-size: 14px;
     column-gap: 6px;
     align-items: center;
-    font-size: 14px;
-    text-align: end;
 }
 
 .pricingImage {

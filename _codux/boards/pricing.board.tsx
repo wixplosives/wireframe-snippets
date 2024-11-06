@@ -10,7 +10,7 @@ export default createBoard({
                 <div className="pricingCard">
                     <div className="pricingHeader">
                         <h2 className="pricingHeaderTitle">New Client Trial</h2>
-                        <h1 className="pricingHeaderText">$150</h1>
+                        <h1 className="pricingHeaderCost">$150</h1>
                         <p className="pricingHeaderDescription">Valid for 3 months</p>
                     </div>
                     <div className="pricingContent">
@@ -20,7 +20,7 @@ export default createBoard({
                                 alt="V Logo on Dark Background"
                                 className="pricingImage"
                             />
-                            <p className="pricingFeature">Describe the above</p>
+                            <p>Describe the above</p>
                         </div>
                         <div className="pricingFeature">
                             <img
@@ -28,7 +28,7 @@ export default createBoard({
                                 alt="V Logo on Dark Background"
                                 className="pricingImage"
                             />
-                            <p className="pricingFeature">Describe the above</p>
+                            <p>Describe the above</p>
                         </div>
                         <div className="pricingFeature">
                             <img
@@ -36,7 +36,7 @@ export default createBoard({
                                 alt="V Logo on Dark Background"
                                 className="pricingImage"
                             />
-                            <p className="pricingFeature">Describe the above</p>
+                            <p>Describe the above</p>
                         </div>
                         <div className="pricingFeature">
                             <img
@@ -44,7 +44,7 @@ export default createBoard({
                                 alt="V Logo on Dark Background"
                                 className="pricingImage"
                             />
-                            <p className="pricingFeature">Describe the above</p>
+                            <p>Describe the above</p>
                         </div>
                         <button className="pricingButton">Buy Now</button>
                     </div>
@@ -52,7 +52,7 @@ export default createBoard({
                 <div className="pricingPremium">
                     <div className="pricingPremiumHeader">
                         <h2 className="pricingHeaderTitle">Weekly Consulting</h2>
-                        <h1 className="pricingHeaderText">$200</h1>
+                        <h1 className="pricingHeaderCost">$200</h1>
                         <p className="pricingPremiumDescription">Valid for 12 months</p>
                     </div>
                     <div className="pricingContent">
@@ -62,7 +62,7 @@ export default createBoard({
                                 alt="V Logo on Dark Background"
                                 className="pricingImage"
                             />
-                            <p className="pricingFeature">Describe the above</p>
+                            <p>Describe the above</p>
                         </div>
                         <div className="pricingFeature">
                             <img
@@ -70,7 +70,7 @@ export default createBoard({
                                 alt="V Logo on Dark Background"
                                 className="pricingImage"
                             />
-                            <p className="pricingFeature">Describe the above</p>
+                            <p>Describe the above</p>
                         </div>
                         <div className="pricingFeature">
                             <img
@@ -78,7 +78,7 @@ export default createBoard({
                                 alt="V Logo on Dark Background"
                                 className="pricingImage"
                             />
-                            <p className="pricingFeature">Describe the above</p>
+                            <p>Describe the above</p>
                         </div>
                         <div className="pricingFeature">
                             <img
@@ -86,7 +86,7 @@ export default createBoard({
                                 alt="V Logo on Dark Background"
                                 className="pricingImage"
                             />
-                            <p className="pricingFeature">Describe the above</p>
+                            <p>Describe the above</p>
                         </div>
                         <button className="pricingButton">Buy Now</button>
                     </div>
@@ -94,7 +94,7 @@ export default createBoard({
                 <div className="pricingCard">
                     <div className="pricingHeader">
                         <h2 className="pricingHeaderTitle">New Client Trial</h2>
-                        <h1 className="pricingHeaderText">$150</h1>
+                        <h1 className="pricingHeaderCost">$150</h1>
                         <p className="pricingHeaderDescription">Valid for 3 months</p>
                     </div>
                     <div className="pricingContent">
@@ -104,7 +104,7 @@ export default createBoard({
                                 alt="V Logo on Dark Background"
                                 className="pricingImage"
                             />
-                            <p className="pricingFeature">Describe the above</p>
+                            <p>Describe the above</p>
                         </div>
                         <div className="pricingFeature">
                             <img
@@ -112,7 +112,7 @@ export default createBoard({
                                 alt="V Logo on Dark Background"
                                 className="pricingImage"
                             />
-                            <p className="pricingFeature">Describe the above</p>
+                            <p>Describe the above</p>
                         </div>
                         <div className="pricingFeature">
                             <img
@@ -120,7 +120,7 @@ export default createBoard({
                                 alt="V Logo on Dark Background"
                                 className="pricingImage"
                             />
-                            <p className="pricingFeature">Describe the above</p>
+                            <p>Describe the above</p>
                         </div>
                         <div className="pricingFeature">
                             <img
@@ -128,7 +128,7 @@ export default createBoard({
                                 alt="V Logo on Dark Background"
                                 className="pricingImage"
                             />
-                            <p className="pricingFeature">Describe the above</p>
+                            <p>Describe the above</p>
                         </div>
                         <button className="pricingButton">Buy Now</button>
                     </div>
@@ -137,7 +137,7 @@ export default createBoard({
         </div>
     ),
     environmentProps: {
-        windowWidth: 1206,
+        windowWidth: 1110,
         windowHeight: 832,
     },
 });
