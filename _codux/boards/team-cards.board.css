@@ -1,6 +1,5 @@
 .teamCards {
     display: flex;
-
     @media (width < 480px) {
         flex-direction: column;
     }
