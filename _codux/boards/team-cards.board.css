@@ -1,15 +1,7 @@
 .teamCards {
     display: flex;
-    min-height: 800px;
 
-    @media (width < 1024px) {
-        min-height: 500px;
-    }
-    @media (width < 768px) {
-        min-height: 400px;
-    }
     @media (width < 480px) {
-        min-height: 300px;
         flex-direction: column;
     }
 }
@@ -17,31 +9,20 @@
 .teamCardsCard {
     outline: 1px solid rgba(255, 255, 255, 0.5);
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
-    position: relative;
-    overflow: hidden;
-}
-
-.teamCardsCardImage {
-    object-fit: cover;
-    height: 100%;
-    width: 100%;
-}
-
-.teamCardsCardContent {
-    position: absolute;
-    bottom: 60px;
-    max-width: 70%;
-    padding-left: 20px;
-
+    background-image: url('https://static.wixstatic.com/media/8586f3_f6d2538ac6374f71b6dc29511c5cd1a3~mv2.png/v1/fill/w_860,h_600/Frame%206.png');
+    background-size: cover;
+    background-position: center;
+    height: 800px;
+    padding: 16px;
+    align-content: end;
     @media (width < 1024px) {
-        max-width: 80%;
+        height: 500px;
     }
-
     @media (width < 768px) {
-        bottom: 30px;
-        left: 12px;
-        padding-left: 10px;
-        max-width: 80%;
+        height: 400px;
+    }
+    @media (width < 480px) {
+        height: 300px;
     }
 }
 
