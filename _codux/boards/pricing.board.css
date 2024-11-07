@@ -106,7 +106,7 @@
     flex-direction: column;
     cursor: pointer;
     transition: box-shadow 0.3s;
-    padding: 12px;
+    padding: 16px;
     width: 300px;
     background-color: #2f3e4c;
     color: white;
