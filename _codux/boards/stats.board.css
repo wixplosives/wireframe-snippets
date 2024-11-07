@@ -15,6 +15,8 @@
 .statsAllStatsContainer {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
+    row-gap: 40px;
+    column-gap: 80px;
 
     @media (width < 1024px) {
         grid-template-columns: 1fr 1fr;
@@ -23,8 +25,6 @@
     @media (width < 420px) {
         grid-template-columns: 1fr;
     }
-    row-gap: 40px;
-    column-gap: 80px;
 }
 
 .statsNumber {
