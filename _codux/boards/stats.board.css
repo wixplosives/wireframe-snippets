@@ -1,14 +1,11 @@
 .stats {
-    font-family: Arial, sans-serif;
-    padding: 80px;
-    display: grid;
-    gap: 60px;
+    padding: 40px;
 }
 
 .statsHeader {
     font-size: 36px;
     font-weight: 600;
-
+    margin-bottom: 32px;
     @media (width < 420px) {
         font-size: 22px;
     }
@@ -16,14 +13,14 @@
 
 .statsAllStatsContainer {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: repeat(4, 1fr);
     gap: 40px 24px;
 
     @media (width < 1024px) {
         grid-template-columns: 1fr 1fr;
     }
 
-     @media (width < 420px) {
+    @media (width < 420px) {
         grid-template-columns: 1fr;
     }
 }
@@ -44,9 +41,4 @@
     font-size: 14px;
     line-height: 1.6;
     padding-top: 16px;
-    width: 60%;
-
-     @media (width <= 420px) {
-        width: 100%;
-    }
 }
