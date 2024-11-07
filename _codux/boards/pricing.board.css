@@ -25,6 +25,9 @@
 }
 
 .pricingCard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     cursor: pointer;
@@ -107,6 +110,8 @@
     width: 300px;
     background-color: #2f3e4c;
     color: white;
+    align-items: center;
+
     @media (width <= 1024px) {
         min-width: 240px;
     }

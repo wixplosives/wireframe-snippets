@@ -13,41 +13,41 @@ export default createBoard({
                         <h1 className="pricingHeaderCost">$150</h1>
                         <p className="pricingHeaderDescription">Valid for 3 months</p>
                     </div>
-                    <div className="pricingPlanFeatures">
-                        <div className="pricingFeature">
+                    <ul className="pricingPlanFeatures">
+                        <li className="pricingFeature">
                             <img
                                 src="https://static.wixstatic.com/media/13128652dab8451db4ce3e8b1b00d5b0.png/v1/fit/w_640,h_640/V Logo.png"
                                 alt="V Logo on Dark Background"
                                 className="pricingImage"
                             />
                             <p>Describe the above</p>
-                        </div>
-                        <div className="pricingFeature">
+                        </li>
+                        <li className="pricingFeature">
                             <img
                                 src="https://static.wixstatic.com/media/13128652dab8451db4ce3e8b1b00d5b0.png/v1/fit/w_640,h_640/V Logo.png"
                                 alt="V Logo on Dark Background"
                                 className="pricingImage"
                             />
                             <p>Describe the above</p>
-                        </div>
-                        <div className="pricingFeature">
+                        </li>
+                        <li className="pricingFeature">
                             <img
                                 src="https://static.wixstatic.com/media/13128652dab8451db4ce3e8b1b00d5b0.png/v1/fit/w_640,h_640/V Logo.png"
                                 alt="V Logo on Dark Background"
                                 className="pricingImage"
                             />
                             <p>Describe the above</p>
-                        </div>
-                        <div className="pricingFeature">
+                        </li>
+                        <li className="pricingFeature">
                             <img
                                 src="https://static.wixstatic.com/media/13128652dab8451db4ce3e8b1b00d5b0.png/v1/fit/w_640,h_640/V Logo.png"
                                 alt="V Logo on Dark Background"
                                 className="pricingImage"
                             />
                             <p>Describe the above</p>
-                        </div>
-                        <button className="pricingButton">Buy Now</button>
-                    </div>
+                        </li>
+                    </ul>
+                    <button className="pricingButton">Buy Now</button>
                 </div>
                 <div className="pricingPremium">
                     <div className="pricingPremiumPlanOverview">
@@ -55,41 +55,41 @@ export default createBoard({
                         <h1 className="pricingHeaderCost">$200</h1>
                         <p className="pricingPremiumDescription">Valid for 12 months</p>
                     </div>
-                    <div className="pricingPlanFeatures">
-                        <div className="pricingFeature">
+                    <ul className="pricingPlanFeatures">
+                        <li className="pricingFeature">
                             <img
                                 src="https://static.wixstatic.com/media/13128652dab8451db4ce3e8b1b00d5b0.png/v1/fit/w_640,h_640/V Logo.png"
                                 alt="V Logo on Dark Background"
                                 className="pricingImage"
                             />
                             <p>Describe the above</p>
-                        </div>
-                        <div className="pricingFeature">
+                        </li>
+                        <li className="pricingFeature">
                             <img
                                 src="https://static.wixstatic.com/media/13128652dab8451db4ce3e8b1b00d5b0.png/v1/fit/w_640,h_640/V Logo.png"
                                 alt="V Logo on Dark Background"
                                 className="pricingImage"
                             />
                             <p>Describe the above</p>
-                        </div>
-                        <div className="pricingFeature">
+                        </li>
+                        <li className="pricingFeature">
                             <img
                                 src="https://static.wixstatic.com/media/13128652dab8451db4ce3e8b1b00d5b0.png/v1/fit/w_640,h_640/V Logo.png"
                                 alt="V Logo on Dark Background"
                                 className="pricingImage"
                             />
                             <p>Describe the above</p>
-                        </div>
-                        <div className="pricingFeature">
+                        </li>
+                        <li className="pricingFeature">
                             <img
                                 src="https://static.wixstatic.com/media/13128652dab8451db4ce3e8b1b00d5b0.png/v1/fit/w_640,h_640/V Logo.png"
                                 alt="V Logo on Dark Background"
                                 className="pricingImage"
                             />
                             <p>Describe the above</p>
-                        </div>
-                        <button className="pricingButton">Buy Now</button>
-                    </div>
+                        </li>
+                    </ul>
+                    <button className="pricingButton">Buy Now</button>
                 </div>
                 <div className="pricingCard">
                     <div className="pricingPlanOverview">
@@ -97,41 +97,41 @@ export default createBoard({
                         <h1 className="pricingHeaderCost">$150</h1>
                         <p className="pricingHeaderDescription">Valid for 3 months</p>
                     </div>
-                    <div className="pricingPlanFeatures">
-                        <div className="pricingFeature">
+                    <ul className="pricingPlanFeatures">
+                        <li className="pricingFeature">
                             <img
                                 src="https://static.wixstatic.com/media/13128652dab8451db4ce3e8b1b00d5b0.png/v1/fit/w_640,h_640/V Logo.png"
                                 alt="V Logo on Dark Background"
                                 className="pricingImage"
                             />
                             <p>Describe the above</p>
-                        </div>
-                        <div className="pricingFeature">
+                        </li>
+                        <li className="pricingFeature">
                             <img
                                 src="https://static.wixstatic.com/media/13128652dab8451db4ce3e8b1b00d5b0.png/v1/fit/w_640,h_640/V Logo.png"
                                 alt="V Logo on Dark Background"
                                 className="pricingImage"
                             />
                             <p>Describe the above</p>
-                        </div>
-                        <div className="pricingFeature">
+                        </li>
+                        <li className="pricingFeature">
                             <img
                                 src="https://static.wixstatic.com/media/13128652dab8451db4ce3e8b1b00d5b0.png/v1/fit/w_640,h_640/V Logo.png"
                                 alt="V Logo on Dark Background"
                                 className="pricingImage"
                             />
                             <p>Describe the above</p>
-                        </div>
-                        <div className="pricingFeature">
+                        </li>
+                        <li className="pricingFeature">
                             <img
                                 src="https://static.wixstatic.com/media/13128652dab8451db4ce3e8b1b00d5b0.png/v1/fit/w_640,h_640/V Logo.png"
                                 alt="V Logo on Dark Background"
                                 className="pricingImage"
                             />
                             <p>Describe the above</p>
-                        </div>
-                        <button className="pricingButton">Buy Now</button>
-                    </div>
+                        </li>
+                    </ul>
+                    <button className="pricingButton">Buy Now</button>
                 </div>
             </div>
         </div>
