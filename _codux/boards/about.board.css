@@ -1,5 +1,4 @@
 .about {
-    font-family: Arial, sans-serif;
     display: grid;
     grid-template-rows: 1fr 1fr 1fr;
     grid-template-columns: 1fr 2fr 1fr;
@@ -18,76 +17,48 @@
 }
 
 .aboutImage {
-    object-fit: cover;
     width: 100%;
     border-radius: 12px;
     height: 100%;
 }
 
-.aboutTitleCell {
-    display: flex;
+.aboutTitleText {
     background-color: #e0e5fc;
-    border-radius: 12px;
-    justify-content: center;
-    align-items: center;
+    font-size: 60px;
+    font-weight: 700;
     grid-column: 2 / 4;
+    border-radius: 12px;
+    text-align: center;
+    align-content: center;
+    padding: 36px;
 
     @media (width < 480px) {
         grid-column: 1 / 1;
-        min-height: 100px;
-    }
-}
-
-.aboutTitleText {
-    font-size: 60px;
-    font-weight: 700;
-    text-align: center;
-
-    @media (width < 480px) {
         font-size: 20px;
     }
 }
 
-.aboutSubtitleCell {
-    display: flex;
-    padding: 20px;
-    background-color: #e0e5fc;
-    border-radius: 12px;
-    justify-content: center;
-    align-items: center;
-    @media (width < 768px) {
-        grid-column: 1 / 2;
-    }
-    @media (width < 480px) {
-        grid-row: 3;
-        grid-column: 1;
-    }
-}
-
 .aboutSubtitleText {
+    text-align: center;
+    align-content: center;
+    border-radius: 12px;
+    background-color: #e0e5fc;
     font-size: 24px;
     text-align: center;
-}
-
-.aboutContentCell {
     padding: 20px;
-    background-color: #e0e5fc;
-    border-radius: 12px;
-    justify-content: center;
-    align-content: center;
-
-    @media (width < 768px) {
-        grid-column: 2 / 4;
-    }
-
-    @media (width < 480px) {
-        grid-row: 4;
-        grid-column: 1;
-    }
+    margin: 0;
 }
 
 .aboutContentText {
+    width: 100%;
+    background-color: #e0e5fc;
+    border-radius: 12px;
+    align-content: center;
     line-height: 1.6em;
+    padding: 20px;
+    @media (width < 768px) {
+        grid-column: 2 / 4;
+    }
 }
 
 .aboutButtonCell {
@@ -120,16 +91,17 @@
     cursor: pointer;
 }
 
-.aboutSecondImageCell {
-    grid-row: 3 / 4;
+.aboutSecondImage {
     grid-column: 1 / 4;
     max-height: 160px;
+    border-radius: 12px;
+    object-fit: cover;
+    width: 100%;
+
     @media (width < 768px) {
         grid-row: 4 / 4;
-        grid-column: 1 / 4;
     }
     @media (width < 480px) {
         grid-row: 6;
-        grid-column: 1;
     }
 }
