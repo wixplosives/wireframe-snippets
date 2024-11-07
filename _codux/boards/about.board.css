@@ -3,7 +3,7 @@
     grid-template-rows: 1fr 1fr 1fr;
     grid-template-columns: 1fr 2fr 1fr;
     gap: 16px;
-    margin: 50px;
+    margin: 48px;
     @media (width < 768px) {
         grid-template-columns: 1fr 2fr;
         grid-template-rows: 1fr 1fr 0.5fr 1fr;
@@ -54,7 +54,7 @@
     background-color: #e0e5fc;
     border-radius: 12px;
     align-content: center;
-    line-height: 1.6em;
+    line-height: 28px;
     padding: 20px;
     @media (width < 768px) {
         grid-column: 2 / 4;
@@ -84,9 +84,9 @@
 }
 
 .aboutButton {
-    padding: 17px 26px;
+    padding: 16px 26px;
     border: 1px solid black;
-    border-radius: 30px;
+    border-radius: 32px;
 }
 
 .aboutButton:hover {
