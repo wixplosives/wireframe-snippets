@@ -49,11 +49,11 @@ export default createBoard({
                     </ul>
                     <button className="pricingButton">Buy Now</button>
                 </div>
-                <div className="pricingPremium">
-                    <div className="pricingPremiumPlanOverview">
+                <div className="pricingCard">
+                    <div className="pricingPlanOverview">
                         <h2 className="pricingHeaderTitle">Weekly Consulting</h2>
                         <h1 className="pricingHeaderCost">$200</h1>
-                        <p className="pricingPremiumDescription">Valid for 12 months</p>
+                        <p className="pricingHeaderDescription">Valid for 12 months</p>
                     </div>
                     <ul className="pricingPlanFeatures">
                         <li className="pricingFeature">
