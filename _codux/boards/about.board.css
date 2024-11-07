@@ -59,6 +59,10 @@
     @media (width < 768px) {
         grid-column: 2 / 4;
     }
+    @media (width < 480px) {
+        grid-row: 4;
+        grid-column: 1;
+    }
 }
 
 .aboutButtonCell {
@@ -90,18 +94,19 @@
     color: #ffffff;
     cursor: pointer;
 }
-
 .aboutSecondImage {
     grid-column: 1 / 4;
     max-height: 160px;
     border-radius: 12px;
     object-fit: cover;
-    width: 100%;
+    width:100%;
 
     @media (width < 768px) {
         grid-row: 4 / 4;
+        grid-column: 1 / 4;
     }
     @media (width < 480px) {
         grid-row: 6;
+        grid-column: 1;
     }
 }
