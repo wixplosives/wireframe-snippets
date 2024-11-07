@@ -8,22 +8,22 @@ export default createBoard({
             <div className="teamCardsCard">
                 <h1 className="teamCardsCardTitle">Team Card One</h1>
                 <p className="teamCardsCardSubtitle">
-                    Add paragraph text. Click “Edit Text” to update the font, size and more. To
-                    change and reuse text themes, go to Site Styles.
+                    Double click the the text to edit its content, to edit font size, font colors,
+                    and all css properties in the style panel.
                 </p>
             </div>
             <div className="teamCardsCard">
                 <h1 className="teamCardsCardTitle">Team Card Two</h1>
                 <p className="teamCardsCardSubtitle">
-                    Add paragraph text. Click “Edit Text” to update the font, size and more. To
-                    change and reuse text themes, go to Site Styles.
+                    Double click the the text to edit its content, to edit font size, font colors,
+                    and all css properties in the style panel.
                 </p>
             </div>
             <div className="teamCardsCard">
                 <h1 className="teamCardsCardTitle">Team Card Three</h1>
                 <p className="teamCardsCardSubtitle">
-                    Add paragraph text. Click “Edit Text” to update the font, size and more. To
-                    change and reuse text themes, go to Site Styles.
+                    Double click the the text to edit its content, to edit font size, font colors,
+                    and all css properties in the style panel.
                 </p>
             </div>
         </div>
