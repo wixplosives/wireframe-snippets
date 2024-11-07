@@ -3,7 +3,7 @@
 }
 
 .cardCollectionHeader {
-    font-size: 70px;
+    font-size: 68px;
     text-align: center;
     font-weight: 700;
     text-wrap: pretty;
@@ -12,15 +12,14 @@
         font-size: 60px;
     }
     @media (width<= 480px) {
-        font-size: 30px;
+        font-size: 36px;
     }
 }
 
 .cardCollectionItems {
     display: flex;
-    gap: 1.5rem;
-    margin-top: 1rem;
-
+    gap: 28px;
+    margin-top: 40px;
     @media (width<= 768px) {
         flex-direction: column;
     }
@@ -28,29 +27,27 @@
 
 .cardCollectionItem {
     border-radius: 8px;
-    overflow: hidden;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     cursor: pointer;
     transition: box-shadow 0.3s;
 
     @media (width<= 480px) {
-        font-size: 30px;
+        font-size: 32px;
     }
 }
 
 .cardCollectionImage {
-    object-fit: cover;
 }
 
 .cardCollectionContent {
-    padding: 20px;
+    padding: 24px;
     display: flex;
     flex-direction: column;
-    gap: 15px;
+    gap: 4px;
 }
 
 .cardCollectionTitle {
-    font-size: 50px;
+    font-size: 40px;
 
     @media (width<= 768px) {
         font-size: 40px;
@@ -59,7 +56,6 @@
 
 .cardCollectionDescription {
     font-size: 18px;
-    line-height: 1.5;
     text-wrap: pretty;
 
     @media (width<= 768px) {
@@ -70,12 +66,13 @@
 .cardCollectionButton {
     padding: 12px 24px;
     background-color: black;
-    border-radius: 30px;
-    font-size: 18px;
+    border-radius: 32px;
+    font-size: 16px;
     cursor: pointer;
     transition: background-color 0.3s ease-out;
     align-self: flex-start;
     color: white;
+    margin-top: 12px;
 }
 
 .cardCollectionButton:hover {
