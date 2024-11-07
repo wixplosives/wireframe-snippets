@@ -1,7 +1,5 @@
 .clients {
-    padding: 80px;
-    font-family: Arial, sans-serif;
-
+    padding: 40px;
     row-gap: 60px;
     display: flex;
     flex-direction: column;
@@ -10,7 +8,6 @@
 
 .clientsHeader {
     display: flex;
-
     @media (width <= 768px) {
         flex-direction: column-reverse;
         row-gap: 50px;
@@ -21,6 +18,10 @@
     display: flex;
     flex-direction: column;
     gap: 20px;
+    padding-right: 40px;;
+    @media (width < 480px) {
+        align-items: center;
+    }
 }
 
 .clientsTitle {
@@ -36,8 +37,6 @@
 .clientsDescription {
     font-size: 16px;
     line-height: 1.6em;
-    width: 85%;
-
     @media (width <= 768px) {
         width: 100%;
     }
@@ -53,8 +52,9 @@
 }
 
 .clientsLogos {
-    gap: 24px;
     display: flex;
+    justify-content: space-between;
+    justify-items: center;
 
     @media (width < 1024px) {
         display: grid;
@@ -67,15 +67,7 @@
     @media (width < 480px) {
         grid-template-columns: repeat(1, 1fr);
     }
-}
-
-.clientsLogoContainer {
-    box-shadow: 0 1px 20px rgba(0, 0, 0, 0.08);
-    border-radius: 12px;
-    padding: 32px 24px;
-    display: flex;
-    justify-content: center;
-    width: 100%;
+    gap: 32px;
 }
 
 .clientsLogoImage {
