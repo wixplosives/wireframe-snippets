@@ -1,0 +1,82 @@
+.cardCollection {
+    padding: 48px;
+    background-color: white;
+}
+
+.cardCollectionHeader {
+    font-size: 68px;
+    font-weight: 700;
+    text-align: center;
+    text-wrap: pretty;
+    margin-bottom: 40px;
+
+    @media (width <= 768px) {
+        font-size: 60px;
+    }
+    @media (width <= 480px) {
+        font-size: 36px;
+    }
+}
+
+.cardCollectionItems {
+    display: flex;
+    gap: 28px;
+
+    @media (width <= 768px) {
+        flex-direction: column;
+    }
+}
+
+.cardCollectionItem {
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: box-shadow 0.3s;
+
+    @media (width<= 480px) {
+        font-size: 32px;
+    }
+}
+
+.cardCollectionContent {
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.cardCollectionTitle {
+    font-size: 40px;
+
+    @media (width<= 768px) {
+        font-size: 40px;
+    }
+}
+
+.cardCollectionDescription {
+    font-size: 18px;
+    text-wrap: pretty;
+    margin-bottom: 12px;
+
+    @media (width<= 768px) {
+        font-size: 24px;
+    }
+}
+
+.cardCollectionButton {
+    padding: 12px 24px;
+    background-color: black;
+    border-radius: 32px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-out;
+    align-self: flex-start;
+    color: white;
+}
+
+.cardCollectionButton:hover {
+    background-color: #848484;
+}
+
+.cardCollectionItem:hover {
+    box-shadow: 0 6px 30px rgba(33, 33, 33, 0.2);
+}

@@ -1,67 +1,60 @@
-.hero-image {
+.heroImage {
     display: flex;
-    max-width: 100%;
-    height: 70%;
     border-radius: 8px;
     overflow: hidden;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    font-family: Arial, sans-serif;
     flex-direction: row;
+    background-color: white;
 
     @media (width <= 768px) {
         flex-direction: column;
     }
 }
 
-.image-box {
-    width: 100%;
-}
-
-.img {
-    width: 100%;
-    height: 100%;
+.heroImageImg {
     object-fit: cover;
+    width: 50%;
+    
+    @media (width <= 768px) {
+        width: 100%;
+    }
 }
 
-.content-box {
-    padding: 30px;
+.heroImageContentBox {
+    padding: 28px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     gap: 20px;
 }
 
-.title {
-    font-size: 70px;
+.heroImageTitle {
+    font-size: 68px;
+
     @media (width <= 1024px) {
-        font-size: 50px;
+        font-size: 52px;
     }
 }
 
-.description {
+.heroImageDescription {
     font-size: 24px;
-    line-height: 1.5;
     text-wrap: pretty;
-    @media (width <= 1024px) {
-        font-size: 20px;
-    }
 }
 
-.explore-button {
+.heroImageExploreButton {
     padding: 16px 24px;
-    background-color: #000000;
-    border-radius: 30px;
+    background-color: black;
+    border-radius: 28px;
     font-size: 18px;
     cursor: pointer;
     transition: background-color 0.3s ease-out;
     align-self: flex-start;
-    color: #ffffff;
+    color: white;
     @media (width <= 1024px) {
         font-size: 16px;
     }
 }
 
-.explore-button:hover {
+.heroImageExploreButton:hover {
     background-color: #848484;
-    color: #ffffff;
 }
