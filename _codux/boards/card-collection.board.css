@@ -5,14 +5,15 @@
 
 .cardCollectionHeader {
     font-size: 68px;
-    text-align: center;
     font-weight: 700;
+    text-align: center;
     text-wrap: pretty;
+    margin-bottom: 40px;
 
-    @media (width<= 768px) {
+    @media (width <= 768px) {
         font-size: 60px;
     }
-    @media (width<= 480px) {
+    @media (width <= 480px) {
         font-size: 36px;
     }
 }
@@ -20,8 +21,8 @@
 .cardCollectionItems {
     display: flex;
     gap: 28px;
-    margin-top: 40px;
-    @media (width<= 768px) {
+
+    @media (width <= 768px) {
         flex-direction: column;
     }
 }
@@ -35,9 +36,6 @@
     @media (width<= 480px) {
         font-size: 32px;
     }
-}
-
-.cardCollectionImage {
 }
 
 .cardCollectionContent {
@@ -58,6 +56,7 @@
 .cardCollectionDescription {
     font-size: 18px;
     text-wrap: pretty;
+    margin-bottom: 12px;
 
     @media (width<= 768px) {
         font-size: 24px;
@@ -68,12 +67,10 @@
     padding: 12px 24px;
     background-color: black;
     border-radius: 32px;
-    font-size: 16px;
     cursor: pointer;
     transition: background-color 0.3s ease-out;
     align-self: flex-start;
     color: white;
-    margin-top: 12px;
 }
 
 .cardCollectionButton:hover {
