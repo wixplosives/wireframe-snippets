@@ -1,171 +1,108 @@
 .pricing {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: #f9f9fc;
-    font-family: Arial, sans-serif;
+    background-color: white;
+    padding: 24px;
 }
 
-.pricing-title {
+.pricingTitle {
     font-size: 40px;
     font-weight: 800;
+    text-align: center;
 }
 
-.pricing-cards {
+.pricingCards {
     display: flex;
-    padding: 30px;
-    column-gap: 20px;
+    padding: 32px;
+    gap: 20px;
+    justify-content: center;
     align-items: center;
-    @media (width <= 1024px) {
+
+    @media (width < 1024px) {
         padding: 16px;
     }
-
-    @media (width <= 768px) {
+    @media (width < 768px) {
         flex-direction: column;
-        gap: 20px;
     }
 }
 
-.pricing-card {
-    display: flex;
+.pricingCard {
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    flex-direction: column;
-    flex-grow: 1;
-    flex-shrink: 1;
     cursor: pointer;
     transition: box-shadow 0.3s;
-    background-color: #ffffff;
-    padding: 12px;
-    min-width: 300px;
-    max-width: 308px;
-    transition: box-shadow 0.3s;
-
-    @media (width <= 1024px) {
-        min-width: 240px;
-    }
-    @media (width <= 768px) {
-        min-width: 300px;
-    }
+    padding: 16px;
+    padding-bottom: 32px;
+    width: 300px;
 }
 
-.pricing-header {
-    padding: 12px;
+.pricingPlanOverview {
     display: flex;
     flex-direction: column;
-    gap: clamp(10px, 2vw, 4px);
+    padding: 12px;
+    gap: 12px;
     align-items: center;
     border-bottom: 1px solid #ebebeb;
+    margin-bottom: 12px;
 }
 
-.pricing-header-title {
+.pricingHeaderTitle {
     font-size: 20px;
     font-weight: 500;
 }
 
-.pricing-header-text {
+.pricingHeaderCost {
     font-size: 36px;
     font-weight: 600;
-    color: #957bff;
 }
 
-.pricing-header-description {
+.pricingHeaderDescription {
     font-size: 14px;
-    line-height: 1.5;
     text-wrap: pretty;
     text-align: center;
     color: #969696;
+    
     @media (width <= 768px) {
         font-size: 24px;
     }
 }
 
-.pricing-content {
-    padding: 12px;
+.pricingPlanFeatures {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    gap: clamp(10px, 2vw, 4px);
     align-items: center;
-    margin-top: 5px;
+    gap: 12px;
+    padding-left: 0px;
+    margin-bottom: 20px;
 }
 
-.pricing-feature {
+.pricingFeature {
     display: flex;
+    font-size: 14px;
     column-gap: 6px;
     align-items: center;
-    font-size: 14px;
 }
 
-.pricing-img {
+.pricingImage {
     width: 20px;
     height: 20px;
 }
 
-.pricing-button {
+.pricingButton {
+    display: block;
+    margin: 0 auto;
     padding: 12px 24px;
-    background-color: #7d5dff;
+    color: white;
+    background-color: black;
     border-radius: 30px;
     font-size: 18px;
     cursor: pointer;
     transition: background-color 0.3s ease-out;
-    align-self: flex-start;
-    color: #ffffff;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    margin-top: 10px;
 }
 
-.pricing-premium {
-    display: flex;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    flex-direction: column;
-    flex-grow: 1;
-    flex-shrink: 1;
-    cursor: pointer;
-    transition: box-shadow 0.3s;
-    padding: 12px;
-    min-width: 300px;
-    max-width: 308px;
-    background-color: #2f3e4c;
-    color: #ffffff;
-    @media (width <= 1024px) {
-        min-width: 240px;
-    }
-    @media (width <= 768px) {
-        min-width: 300px;
-    }
+.pricingButton:hover {
+    background-color: #848484;
 }
 
-.pricing-premium-header {
-    padding: 12px;
-    display: flex;
-    flex-direction: column;
-    gap: clamp(10px, 2vw, 4px);
-    align-items: center;
-    border-bottom: 1px solid #717171;
-}
-
-.pricing-premium-description {
-    font-size: 14px;
-    line-height: 1.5;
-    text-wrap: pretty;
-    color: #dfdfdf;
-    @media (width <= 768px) {
-        font-size: 24px;
-    }
-}
-
-.pricing-button:hover {
-    background-color: #5b41c6;
-}
-
-.pricing-card:hover {
-    box-shadow: 0 3px 38px rgba(0, 0, 0, 0.3);
-}
-
-.pricing-premium:hover {
+.pricingCard:hover,
+.pricingPremium:hover {
     box-shadow: 0 3px 38px rgba(0, 0, 0, 0.3);
 }
