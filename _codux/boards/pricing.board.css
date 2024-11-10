@@ -19,32 +19,29 @@
     @media (width < 1024px) {
         padding: 16px;
     }
-
     @media (width < 768px) {
         flex-direction: column;
     }
 }
 
 .pricingCard {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     cursor: pointer;
     transition: box-shadow 0.3s;
-    background-color: white;
     padding: 16px;
+    padding-bottom: 32px;
     width: 300px;
 }
 
 .pricingPlanOverview {
-    padding: 12px;
     display: flex;
     flex-direction: column;
+    padding: 12px;
     gap: 12px;
     align-items: center;
     border-bottom: 1px solid #ebebeb;
+    margin-bottom: 12px;
 }
 
 .pricingHeaderTitle {
@@ -55,26 +52,26 @@
 .pricingHeaderCost {
     font-size: 36px;
     font-weight: 600;
-    color: black;
 }
 
 .pricingHeaderDescription {
     font-size: 14px;
-    line-height: 1.5;
     text-wrap: pretty;
     text-align: center;
     color: #969696;
+    
     @media (width <= 768px) {
         font-size: 24px;
     }
 }
 
 .pricingPlanFeatures {
-    gap: 12px;
-    align-items: center;
-    margin-top: 12px;
     display: flex;
     flex-direction: column;
+    align-items: center;
+    gap: 12px;
+    padding-left: 0px;
+    margin-bottom: 20px;
 }
 
 .pricingFeature {
@@ -90,15 +87,15 @@
 }
 
 .pricingButton {
+    display: block;
+    margin: 0 auto;
     padding: 12px 24px;
+    color: white;
     background-color: black;
     border-radius: 30px;
     font-size: 18px;
     cursor: pointer;
     transition: background-color 0.3s ease-out;
-    color: white;
-    margin-top: 20px;
-    margin-bottom: 16px;
 }
 
 .pricingButton:hover {
