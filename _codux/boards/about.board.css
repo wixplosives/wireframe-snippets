@@ -17,9 +17,8 @@
 }
 
 .aboutImage {
-    width: 100%;
-    border-radius: 12px;
     height: 100%;
+    border-radius: 12px;
 }
 
 .aboutTitleText {
@@ -87,11 +86,12 @@
     padding: 16px 26px;
     border: 1px solid black;
     border-radius: 32px;
+    background-color: transparent;
 }
 
 .aboutButton:hover {
-    background-color: #000000;
-    color: #ffffff;
+    background-color: black;
+    color: white;
     cursor: pointer;
 }
 .aboutSecondImage {
@@ -99,7 +99,7 @@
     max-height: 160px;
     border-radius: 12px;
     object-fit: cover;
-    width:100%;
+    width: 100%;
 
     @media (width < 768px) {
         grid-row: 4 / 4;
