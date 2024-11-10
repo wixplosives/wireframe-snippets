@@ -1,10 +1,9 @@
-.about-grid {
-    font-family: Arial, sans-serif;
+.about {
     display: grid;
     grid-template-rows: 1fr 1fr 1fr;
     grid-template-columns: 1fr 2fr 1fr;
     gap: 16px;
-    margin: 50px;
+    margin: 48px;
     @media (width < 768px) {
         grid-template-columns: 1fr 2fr;
         grid-template-rows: 1fr 1fr 0.5fr 1fr;
@@ -17,85 +16,55 @@
     }
 }
 
-.about-grid-image-cell {
-    background-color: #e0e5fc;
-    border-radius: 12px;
-}
-
-.about-grid-image {
-    object-fit: cover;
-    width: 100%;
-    border-radius: 12px;
+.aboutImage {
     height: 100%;
+    border-radius: 12px;
 }
 
-.about-grid-title-cell {
-    display: flex;
+.aboutTitleText {
     background-color: #e0e5fc;
-    border-radius: 12px;
-    justify-content: center;
-    align-items: center;
+    font-size: 60px;
+    font-weight: 700;
     grid-column: 2 / 4;
+    border-radius: 12px;
+    text-align: center;
+    align-content: center;
+    padding: 36px;
 
     @media (width < 480px) {
         grid-column: 1 / 1;
-        min-height: 100px;
-    }
-}
-
-.about-grid-title {
-    font-size: 60px;
-    font-weight: 700;
-    text-align: center;
-
-    @media (width < 480px) {
         font-size: 20px;
     }
 }
 
-.about-grid-subtitle-cell {
-    display: flex;
-    padding: 20px;
-    background-color: #e0e5fc;
+.aboutSubtitleText {
+    text-align: center;
+    align-content: center;
     border-radius: 12px;
-    justify-content: center;
-    align-items: center;
-    @media (width < 768px) {
-        grid-column: 1 / 2;
-    }
-    @media (width < 480px) {
-        grid-row: 3;
-        grid-column: 1;
-    }
-}
-
-.about-grid-subtitle {
+    background-color: #e0e5fc;
     font-size: 24px;
     text-align: center;
+    padding: 20px;
+    margin: 0;
 }
 
-.about-grid-content-cell {
-    padding: 20px;
+.aboutContentText {
+    width: 100%;
     background-color: #e0e5fc;
     border-radius: 12px;
-    justify-content: center;
-    align-items: center;
-
+    align-content: center;
+    line-height: 28px;
+    padding: 20px;
     @media (width < 768px) {
         grid-column: 2 / 4;
     }
-
     @media (width < 480px) {
         grid-row: 4;
         grid-column: 1;
     }
 }
 
-.about-grid-content {
-    line-height: 1.6em;
-}
-
-.about-grid-button-cell {
+.aboutButtonCell {
     display: flex;
     padding: 20px;
     background-color: #e0e5fc;
@@ -113,22 +82,25 @@
     }
 }
 
-.about-grid-button {
-    padding: 17px 26px;
+.aboutButton {
+    padding: 16px 26px;
     border: 1px solid black;
-    border-radius: 30px;
+    border-radius: 32px;
+    background-color: transparent;
 }
 
-.about-grid-button:hover {
-    background-color: #000000;
-    color: #ffffff;
+.aboutButton:hover {
+    background-color: black;
+    color: white;
     cursor: pointer;
 }
-
-.about-grid-second-image-cell {
-    grid-row: 3 / 4;
+.aboutSecondImage {
     grid-column: 1 / 4;
     max-height: 160px;
+    border-radius: 12px;
+    object-fit: cover;
+    width: 100%;
+
     @media (width < 768px) {
         grid-row: 4 / 4;
         grid-column: 1 / 4;
