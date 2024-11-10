@@ -14,6 +14,7 @@
 .heroImageImg {
     object-fit: cover;
     width: 50%;
+    
     @media (width <= 768px) {
         width: 100%;
     }
@@ -29,6 +30,7 @@
 
 .heroImageTitle {
     font-size: 68px;
+
     @media (width <= 1024px) {
         font-size: 52px;
     }
@@ -37,8 +39,6 @@
 .heroImageDescription {
     font-size: 24px;
     text-wrap: pretty;
-    @media (width <= 1024px) {
-    }
 }
 
 .heroImageExploreButton {
@@ -57,5 +57,4 @@
 
 .heroImageExploreButton:hover {
     background-color: #848484;
-    color: white;
 }
