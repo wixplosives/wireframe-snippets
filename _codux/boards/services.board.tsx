@@ -1,10 +1,10 @@
 import { createBoard } from '@wixc3/react-board';
-import './services-section.board.css';
+import './services.board.css';
 
 export default createBoard({
-    name: 'ServicesSection',
+    name: 'Services',
     Board: () => (
-        <div className="servicesSection">
+        <div className="services">
             <div className="servicesContent">
                 <h2 className="servicesTitle">Write a Title Here</h2>
                 <p className="servicesDescription">

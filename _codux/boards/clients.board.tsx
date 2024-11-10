@@ -1,4 +1,4 @@
-import './clients-section.board.css';
+import './clients.board.css';
 import { createBoard } from '@wixc3/react-board';
 
 export default createBoard({
