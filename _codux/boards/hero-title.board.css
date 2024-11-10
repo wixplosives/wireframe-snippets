@@ -1,17 +1,16 @@
 .heroTitle {
     min-height: 100vh;
     padding: 60px;
-    align-items: center;
     background: linear-gradient(292deg, #e1e2ff 0%, #ddebff 49%, #e3fbf9 98%);
-    flex-wrap: wrap;
     align-content: center;
 }
 
-.heroTitle__Title {
+.heroTitleHeading {
     margin-bottom: 32px;
     font-size: 120px;
     font-weight: 700;
     text-align: center;
+    
     @media (width < 768px) {
         font-size: 70px;
     }
@@ -20,7 +19,7 @@
     }
 }
 
-.heroTitleButtonsContainer {
+.heroTitleButtons {
     display: flex;
     justify-content: center;
     gap: 30px;
@@ -50,21 +49,14 @@
     }
 }
 
-.heroTitlePrimaryButton {
-    color: white;
-    background: black;
-}
-
-.heroTitlePrimaryButton:hover {
-    color: black;
-    background: transparent;
-}
-
-.heroTitleSecondaryButton {
-    color: black;
-    background: transparent;
-}
+.heroTitlePrimaryButton,
 .heroTitleSecondaryButton:hover {
     color: white;
     background: black;
+}
+
+.heroTitleSecondaryButton,
+.heroTitlePrimaryButton:hover {
+    color: black;
+    background: transparent;
 }

@@ -5,21 +5,21 @@ export default createBoard({
     name: 'Hero Title',
     Board: () => (
         <div className="heroTitle">
-            <h1 className="heroTitle__Title">
+            <h1 className="heroTitleHeading">
                 Title Goes Here. Click to Edit and Add Your Own Text.
             </h1>
-            <div className="heroTitleButtonsContainer">
-                <a href="#a" className="heroTitleSecondaryButton">
+            <div className="heroTitleButtons">
+                <a href="#" className="heroTitleSecondaryButton">
                     Contact Us
                 </a>
-                <a href="#a" className="heroTitlePrimaryButton">
+                <a href="#" className="heroTitlePrimaryButton">
                     Learn More
                 </a>
             </div>
         </div>
     ),
     environmentProps: {
-        windowWidth: 1920,
-        windowHeight: 1080,
+        windowWidth: 1904,
+        windowHeight: 1232,
     },
 });
