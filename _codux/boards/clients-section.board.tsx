@@ -5,7 +5,7 @@ export default createBoard({
     name: 'Clients',
     Board: () => (
         <div className="clients">
-            <div className="clientsHeader">
+            <header className="clientsHeader">
                 <div className="clientsContentTexts">
                     <h2 className="clientsTitle">Our Clients</h2>
                     <p className="clientsDescription">
@@ -19,7 +19,7 @@ export default createBoard({
                     alt=""
                     className="clientsImage"
                 />
-            </div>
+            </header>
             <div className="clientsLogos">
                 <img
                     src="https://static.wixstatic.com/shapes/27eba2_5c720747d7354dba80018d7d997449dc.svg"
@@ -55,7 +55,7 @@ export default createBoard({
         </div>
     ),
     environmentProps: {
-        windowWidth: 1342,
-        windowHeight: 650,
+        windowWidth: 1590,
+        windowHeight: 768,
     },
 });
